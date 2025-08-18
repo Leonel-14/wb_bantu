@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Café Bantu</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="./img/logo-removebg-preview.png"></div>
+            <div class="cont_links_nav">
+                <a href="#" class="link_nav">Inicio</a>
+                <div class="menu">
+                    <a class="link_nav maquinas">Maquinas</a>
+                    <!--inicio submenu-->
+                    <div class="submenu">
+                        <div class="cont_sub_links">
+                            <a class="sub_link_maquinas" href="/html/maquinas.html">Cafe</a>
+                            <a class="sub_link_maquinas" href="#">Snacks</a>
+                        </div>
+                    </div>
+                    <!--fin de submenu-->
+                </div>
+                <a href="#" class="link_nav">Servicios</a>
+                <a href="#id_contacto" class="link_nav">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <section class="seccion_inicio">
+        <div class="swiper-container mySwiper cont_img_slider_inicio" data-aos="zoom-in">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/sl1_HD.png"></div>
+            </div>
+        </div>
+        <div class="cont_texto" data-aos="fade-up" data-aos-delay="400">
+            <div class="cont_texto_img_1">
+                <div>
+                    <p>Café Bantu ofrece soluciones completas para el consumo de café en oficinas, empresas y espacios
+                        públicos.</p>
+                </div>
+            </div>
+            <div class="cont_texto_img_2">
+                <div>
+                    <p>Nos especializamos en el alquiler de máquinas expendedoras de café, la venta de granos
+                        seleccionados
+                        y
+                        un servicio integral de reposición de insumos y asistencia técnica.</p>
+                </div>
+            </div>
+            <div class="cont_texto_img_3">
+                <div>
+                    <p>Instalamos equipos por transporte propio, proveemos café de alta calidad en distintas variedades,
+                        y
+                        garantizamos el mantenimiento y recarga periódica para que nuestros clientes no tengan que
+                        preocuparse
+                        por nada.</p>
+                </div>
+            </div>
+            <div class="cont_texto_img_4">
+                <div>
+                    <p>Nuestro compromiso es brindar un servicio eficiente, confiable y adaptado a cada necesidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer >
+        <nav class="cont_nav" id="id_contacto">
+            <div class="cont_redes_form" data-aos="fade-right">
+                <div class="cont_redes">
+                    <a href="https://www.instagram.com/cafebantu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/cafebantu/?locale=es_LA" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href=" https://wa.me/+541126393433" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="cont_form">
+                    <form class="formulario">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Correo Electronico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                            <input type="tel" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Numero de Telefono">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                         <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="cont_derechos" data-aos="fade-up">
+                <p style="color: #ffffff;">&copy;Todos los derechos reservadors por CLOFEA SRL</p>
+                <div class="cont_logo_derechos">
+                    <img src="./img/logo.png">
+                </div>
+            </div>
+            <div class="cont_datos_contacto" data-aos="fade-left">
+                <div>
+                    <p style="color: #ffffff;">Horario de Atencion: Lunes a Viernes 09hs-17hs</p>
+                    <p style="color: #ffffff;">Ubicacion: Dr. Eduardo Jenner 1805 <a
+                            href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i class="fa-solid fa-location-dot"
+                                style="color: #ffffff;"></i></a></p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.240712067003!2d-58.3942540235096!3d-34.62335685853701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2107cb64df%3A0xb612906c608e5b3b!2sCaf%C3%A9%20Bantu%20Oficinas%20Comerciales!5e0!3m2!1ses!2sar!4v1755493132581!5m2!1ses!2sar"
+                    width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </nav>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/slider_home.js"></script>
+</body>
+
+</html>
