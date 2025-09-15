@@ -59,7 +59,9 @@ section{
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: #1e1e1e;
+    background-color: #42220A;
+    /*background-color: #57070a;*/
+  /*  background-color: #000000;*/
     justify-items: center;
     align-items: center;
 }
@@ -206,7 +208,7 @@ footer .cont_nav{
     height: min-content;
     border: 1px solid white;
     color: white;
-    background-color:#C4AB38;
+    background-color:#eeb61a;
     text-align: center;
     padding: 10px;
     border-radius: 30px;
