@@ -1,0 +1,191 @@
+{
+    "maquinas_cafe":[ 
+      {
+                   "marca": "Necta",
+                    "modelo": "Opera",
+                    "dimension": "41x157x53 cm",
+                    "peso":"69kg",
+                    "img": ["https://www.dropbox.com/scl/fi/mzhtwi4qzsnoito1j371k/frente.png?rlkey=tsbmphhey72i980dq0korsx3c&raw=1","https://www.dropbox.com/scl/fi/n78h1fgy5h72ojsiafvi5/abierto.png?rlkey=dca480iwlwo6hdwwlu63fvwgq&raw=1","img3"],
+                    "cantidad_bebidas":"8",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                  {
+                   "marca": "Saeco",
+                    "modelo": "Cristallo Evo 400/600",
+                    "dimension": "58x183x67 cm",
+                    "peso":"125kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"16",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+      {
+                    "marca": "Saeco",
+                    "modelo": "Cristallo Boton 400/600",
+                    "dimension": "68x183x58 cm",
+                    "peso":"125kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"16",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                  {
+                   "marca": "Saeco",
+                    "modelo": "10P",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                  {
+                   "marca": "Saeco",
+                    "modelo": "Atlante",
+                    "dimension": "75x183x86 cm",
+                    "peso":"192kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"20",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                  {
+                   "marca": "Saeco",
+                    "modelo": "Rubino",
+                    "dimension": "41x157x53 cm",
+                    "peso":"69kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"8",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                {
+                   "marca": "Necta",
+                    "modelo": "Kikko",
+                    "dimension": "41x157x53 cm",
+                    "peso":"69kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"8",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                  {
+                   "marca": "Necta",
+                    "modelo": "Kikko Max",
+                    "dimension": "41x157x53 cm",
+                    "peso":"69kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"8",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                  {
+                   "marca": "Necta",
+                    "modelo": "Concerto",
+                    "dimension": "41x157x53 cm",
+                    "peso":"69kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"8",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+                
+                {
+                   "marca": "Saeco",
+                    "modelo": "Diamante",
+                    "dimension": "41x157x53 cm",
+                    "peso":"69kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"8",
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  }
+      
+                  ],
+  "maquinas_snacks":[
+                  {"marca": "Saeco",
+                    "modelo": "Megacold",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+    {"marca": "Saeco",
+                    "modelo": "Corallo",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+    {"marca": "Necta",
+                    "modelo": "Samba",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+    {"marca": "Coca-Cola",
+                    "modelo": "Coca",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+    {"marca": "Necta",
+                    "modelo": "Snakky",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+    {"marca": "Saeco",
+                    "modelo": "Aliseo",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  },
+    {"marca": "Necta",
+                    "modelo": "Melodia",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_snacks":"10",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+                  }
+  ],
+  "maquinas_min_vending":[
+    {"marca": "Saeco",
+                    "modelo": "Phedra",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"3",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+    },
+    {"marca": "Saeco",
+                    "modelo": "Lirika OTC",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"3",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+    },
+    {"marca": "Saeco",
+                    "modelo": "Lirika PLUS",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"3",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+    },
+    {"marca": "Saeco",
+                    "modelo": "Vienna Plus",
+                    "dimension": "0x0x0 cm",
+                    "peso":"0kg",
+                    "img": ["img","img2","img3"],
+                    "cantidad_bebidas":"3",
+                    "servicio":["reposicion de maquina","servicio tecnico"]
+    }
+    
+  ]
+}
+      
