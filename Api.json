@@ -5,7 +5,7 @@
                     "modelo": "Cristallo Evo 400/600",
                     "dimension": "58x183x67 cm",
                     "peso":"125kg",
-                    "img": ["img","img2","img3"],
+                    "img": ["https://www.dropbox.com/scl/fi/mzhtwi4qzsnoito1j371k/frente.png?rlkey=tsbmphhey72i980dq0korsx3c&raw=1","https://www.dropbox.com/scl/fi/n78h1fgy5h72ojsiafvi5/abierto.png?rlkey=dca480iwlwo6hdwwlu63fvwgq&raw=1","img3"],
                     "cantidad_bebidas":"16",
                     "servicio":["reposicion de maquina","servicio tecnico"]
                   },
