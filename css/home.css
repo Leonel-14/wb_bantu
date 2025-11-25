@@ -45,13 +45,18 @@ section{
     justify-content: space-around;
     align-items: center;
     margin-right: 20px;
-    width: 30em
+    width: 30em;
+    border-radius: 10px;
 }
 .cont_links_nav .link_nav{
     text-decoration: none;
     color: white;
     padding: 5px;
 
+}
+.link_nav:hover{
+    background-color: #eeb61a;
+    border-radius: 10px;
 }
 
 .seccion_inicio{
@@ -89,10 +94,11 @@ section{
     position: absolute;
     background-color: #1e1e1e;
     padding: 10px;
-    top: 26px;
+    top: 32px;
     z-index: 1;
-    
 }
+
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -243,3 +249,22 @@ footer .cont_nav{
 .cont_derechos, .cont_datos_contacto{
     font-size: 1em;
 }
+.cont_marca{
+    width: 100%;
+    background-color: #eeb61a;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.cont_marca_img{
+    width: 8em;
+
+}
+.cont_marca_img img{
+    width: 100%;
+}
+
