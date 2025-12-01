@@ -43,43 +43,69 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 2em;
+    justify-items: center;
+   
 }
 .slider{
-    width: 100%;
-    height: 90vh;
+    width: 40em;
+    height: 40em;
     overflow: hidden;
 }
 .swiper-wrapper{
     width:  100%;
     height: 100%;
-  
     display: flex;
-    
 }
 .swiper-slide{
     min-width: 100%;
     height: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .swiper-slide img{
-    width: 50%;
+    width: 65%;
 }
 .cont_bebidas_especificaciones{
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-rows: 1fr 1fr;
-    gap: 5em;
+    gap: 2em;
+    
 }
-.cont_bebidas{
+.cont_bebidas, .cont_bebidas_2{
     background-color: #eeb61a;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    padding: 1em;
+}
+.cont_bebidas{
     border-radius: 30em 0 0 30em;
+    justify-content: right;
+}
+.cont_bebidas_2{
+    border-radius: 0 30em 30em 0;
+    justify-content: center;
+}
+.cont_bebida,.cont_bebida_2{
+    width: 56em;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.cont_bebida{
+    margin-left: 3em;
+}
+.cont_bebida_2{
+    margin-right: 3em;
+}
+.nombre_cafe{
+    text-align: center;
 }
 .cont_especificaciones{
     width: 100%;
@@ -91,10 +117,18 @@
     gap: 2em;
 }
 .cont_especificaciones p{
-    font-size: 2em;
+    font-size: 1.7em;
     color: black;
 }
-/*
+
+.cont_bebida{
+    width: 100px;
+    height: 50px;
+
+}
+.cont_bebida img{
+    width: 100%;
+}
 
 #mySwiper{
     width: 100%;
@@ -113,7 +147,7 @@
     grid-template-rows: 1fr 1fr;
     align-items: center;
 }
-.cont_bebidas, .cont_bebidas2{
+.cont_bebidas, .cont_bebidas_2{
     display: flex;
     background-color: #eeb61a;
     gap: 20px;
@@ -125,11 +159,11 @@
 .cont_bebidas{
     border-radius: 700px 0px 0px 700px;
 }
-.cont_bebidas2{
+.cont_bebidas_2{
     border-radius: 0px 700px 700px 0px;
 }
-.cont_bebida{
-    font-size: 1.4em;
+.cont_bebida , .cont_bebida_2{
+    
     display: flex;
     justify-content: center;
     align-items: baseline;

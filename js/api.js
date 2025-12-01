@@ -169,15 +169,85 @@ function Mostrar(data) {
 
 }
 function Estructura_Snacks(data) {
+    let i = 0;
     maquina_snack = Object.values(data.maquinas_snacks);
     maquina_snack.forEach(element => {
         imagen1 = Object.values(element.img)[0]
         imagen2 = Object.values(element.img)[1]
         imagen3 = Object.values(element.img)[2]
+
+        if (i % 2 == 0) {
+
         document.getElementById("cont_maquina_snacks").innerHTML +=
             `
         <div class="cont_slider_especificaciones">
         <div class="slider" id="slider"> 
+            <h2 class="nombre_maquina">${element.modelo}</h2>
+            <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src=${imagen1} alt="img1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src=${imagen2}>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src=${imagen1}>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </div>
+            <div class="cont_bebidas_especificaciones">
+                <div class="cont_bebidas">
+                    <div class="cont_beb" data-aos="fade-up">
+                   
+                        <div class="cont_bebida" id="cont_bebida">
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_especificaciones" data-aos="fade-up">
+                    <p>Peso: 125kg</p>
+                    <p>Dimensiones: 67 x 58 x 183 cm</p>
+                    <p>Marca: Saeco</p>
+                    <p>Tension: 230V</p>
+                    <p>Potencia Maxima: 1450W</p>
+                    <p>Cantidad de bebidas: 16</p>
+                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
+                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
+
+                </div>
+            </div>
+        </div>
+        `
+         }
+        else {
+            document.getElementById("cont_maquina_snacks").innerHTML +=
+            `
+            <div class="cont_slider_especificaciones">
+            <div class="cont_bebidas_especificaciones">
+                <div class="cont_bebidas_2">
+                    <div class="cont_beb2" data-aos="fade-up">
+                   
+                        <div class="cont_bebida_2" id="cont_bebida_2">
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_especificaciones" data-aos="fade-up">
+                    <p>Peso: 125kg</p>
+                    <p>Dimensiones: 67 x 58 x 183 cm</p>
+                    <p>Marca: Saeco</p>
+                    <p>Tension: 230V</p>
+                    <p>Potencia Maxima: 1450W</p>
+                    <p>Cantidad de bebidas: 16</p>
+                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
+                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
+
+                </div>
+            </div>
+            <div class="slider" id="slider"> 
                 <h2 class="nombre_maquina">${element.modelo}</h2>
                 <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
                     <div class="swiper-wrapper">
@@ -194,28 +264,10 @@ function Estructura_Snacks(data) {
                     <div class="swiper-pagination"></div>
                 </div>
         </div>
-        <div class="cont_bebidas_especificaciones">
-                <div class="cont_bebidas">
-                    <div class="cont_beb" data-aos="fade-up">
-                        <div class="cont_bebida">
-                            <i class="fa-solid fa-mug-hot icono"></i>
-                            <p class="nombre_cafe">Cafe Corto</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="cont_especificaciones" data-aos="fade-up">
-                    <p>Peso: 125kg</p>
-                    <p>Dimensiones: 67 x 58 x 183 cm</p>
-                    <p>Marca: Saeco</p>
-                    <p>Tension: 230V</p>
-                    <p>Potencia Maxima: 1450W</p>
-                    <p>Cantidad de bebidas: 16</p>
-                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
-                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
-
-                </div>
         </div>
-        `
+            `
+        }
+        i++;
         
         var swiper = new Swiper(".mySwiper", {
             effect: "coverflow",
