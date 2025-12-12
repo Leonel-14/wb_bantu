@@ -1,0 +1,106 @@
+@font-face {
+    font-family: bubble;
+    src: url(../fonts/Bubble\ Sans\ Regular\ 1.001.otf);
+}
+
+.seccion_maquina{
+    max-width: 100%;
+    background-color: #42220A;
+    height: min-content;
+    overflow: hidden;
+}
+.titulo_maquina{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cont_img_titulo{
+    width: 500px;
+    height: 200px;
+}
+.titulo_maquina img{
+    width: 100%;
+}
+.nombre_maquina{
+    width: 100%;
+    text-align: center;
+    height: min-content;
+    font-size: 3em;
+    color: black;
+}
+
+.cont_maquina_snacks{
+    display: grid;
+    max-width: 100%;
+    min-height: 100vh;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.cont_slider_especificaciones{
+    width: 100%;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2em;
+    justify-items: center;
+   
+}
+.slider{
+    width: 40em;
+    height: 40em;
+    overflow: hidden;
+}
+.swiper-wrapper{
+    width:  100%;
+    height: 100%;
+    display: flex;
+    
+}
+.swiper-slide{
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-wrapper .swiper-slide img{
+    width: 65%;
+}
+.cont_snacks_especificaciones{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+}
+
+
+.nombre_cafe{
+    text-align: center;
+}
+.cont_especificaciones{
+     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.cont_especificaciones p{
+    font-size: 1.7em;
+    color: black;
+}
+
+
+
+#mySwiper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

@@ -1,0 +1,103 @@
+.servicios_medios_pago{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #42220A;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5em;
+}
+.seccion_medios_pago,.seccion_servicios{
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+   
+}
+.cont_medios_pago, .cont_servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.descripcion_medio_pago,.descripcion_servicio{
+    width: 70em;
+    text-align: center;
+}
+.descripcion_medio_pago h4, .descripcion_servicio h4{
+    font-size: 1.3em;
+}
+.medio_pago, .servicio1, .servicio2, .servicio3{
+    width: 15em;
+    height: 25em;
+    border-radius: 30px;
+    background-color: rgba(218, 218, 218, 0.5);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+    gap: 1em;
+    transform: scale(1.0);
+    transition: transform 0.3s , box-shadow 0.3s;
+    
+
+}
+.medio_pago:hover{
+    box-shadow: 0px 0px 20px 3px #eeb61a;
+    transform: scale(1.0005)
+}
+
+.cont_img_pago{
+    width: 140px;
+}
+.cont_img_pago img{
+    width: 100%;
+}
+.seccion_servicios{
+    margin-bottom: 1em;
+}
+.servicio1, .servicio2, .servicio3{
+    background-position: center;
+    background-size: cover;
+}
+.servicio1{
+    background-image: url(../img/servicios/servicio.jpg);
+}
+.servicio2{
+    background-image: url(../img/servicios/tecnico.jpg);
+}
+.servicio3{
+    background-image: url(../img/servicios/image.jpg);
+}
+.texto_servicio{
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+}
+.link_consulta_servicio{
+    background-color: #075e54;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 10px 0px;
+    border: 1px solid white;
+}
+.link_consulta_servicio{
+    text-decoration: none;
+    color: black;
+    transition: box-shadow 0.3s;
+}
+.link_consulta_servicio:hover{
+    box-shadow: 0px 0px 20px 3px #128c7e;
+}

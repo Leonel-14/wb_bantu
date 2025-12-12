@@ -181,12 +181,12 @@ function Estructura_Snacks(data) {
         document.getElementById("cont_maquina_snacks").innerHTML +=
             `
         <div class="cont_slider_especificaciones">
-        <div class="slider" id="slider"> 
-            <h2 class="nombre_maquina">${element.modelo}</h2>
+            <div class="slider" id="slider"> 
+                <h2 class="nombre_maquina">${element.modelo}</h2>
             <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src=${imagen1} alt="img1">
+                        <img src=${imagen1}>
                     </div>
                     <div class="swiper-slide">
                         <img src=${imagen2}>
@@ -197,15 +197,110 @@ function Estructura_Snacks(data) {
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-    </div>
-            <div class="cont_bebidas_especificaciones">
-                <div class="cont_bebidas">
-                    <div class="cont_beb" data-aos="fade-up">
-                   
-                        <div class="cont_bebida" id="cont_bebida">
+        </div>
+            <div class="cont_snacks_especificaciones">
+                <div class="cont_snacks">
+                        <div class="cont_snack" id="cont_snack">
+                            <div class="snack_bebida cont_img_snack">
+                                <div class="contenedor_img_snack"> 
                                 <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/snacks/bebidas/sprite.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/snacks/bebidas/fant.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                            </div>
+                            <div class="snack_saludable cont_img_snack"> 
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                            </div>
+                            <div class="snack_salado cont_img_snack"> 
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                            </div>
+                            <div class="snack_alf cont_img_snack">
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                            </div>
+                            <div class="snack_galletas cont_img_snack"> 
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                            </div>
+                            <div class="snack_chocolate cont_img_snack"> 
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                            </div>
+                            <div class="snack_varios cont_img_snack"> 
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                                <div class="contenedor_img_snack"> 
+                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
+                                </div>
+                            </div>
+                                
                         </div>
-                    </div>
                 </div>
                 <div class="cont_especificaciones" data-aos="fade-up">
                     <p>Peso: 125kg</p>
@@ -226,14 +321,12 @@ function Estructura_Snacks(data) {
             document.getElementById("cont_maquina_snacks").innerHTML +=
             `
             <div class="cont_slider_especificaciones">
-            <div class="cont_bebidas_especificaciones">
-                <div class="cont_bebidas_2">
-                    <div class="cont_beb2" data-aos="fade-up">
-                   
-                        <div class="cont_bebida_2" id="cont_bebida_2">
+                <div class="cont_snacks_especificaciones">
+                <div class="cont_snacks">
+                        <div class="cont_snack" id="cont_snack">
                                 <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
                         </div>
-                    </div>
+                    
                 </div>
                 <div class="cont_especificaciones" data-aos="fade-up">
                     <p>Peso: 125kg</p>
@@ -247,22 +340,23 @@ function Estructura_Snacks(data) {
 
                 </div>
             </div>
+
             <div class="slider" id="slider"> 
                 <h2 class="nombre_maquina">${element.modelo}</h2>
-                <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src=${imagen1} alt="img1">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src=${imagen2}>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src=${imagen1}>
-                        </div>
+            <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src=${imagen1} alt="img1">
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide">
+                        <img src=${imagen2}>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src=${imagen1}>
+                    </div>
                 </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
         </div>
             `

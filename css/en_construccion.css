@@ -1,0 +1,8 @@
+.fondo{
+    display: flex;
+    width: 100%;
+    max-height: 100vh;
+}
+.fondo img{
+    width: 100%;
+}
