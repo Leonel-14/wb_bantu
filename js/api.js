@@ -39,7 +39,7 @@ function Estructura_Slider(data) {
                 `
         <div class="cont_slider_especificaciones">
         <div class="slider" id="slider"> 
-                <h2 class="nombre_maquina">${element.modelo}</h2>
+                <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
                 <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
                     <div class="swiper-wrapper" id="swiper-wrapper">
                         <div class="swiper-slide"">

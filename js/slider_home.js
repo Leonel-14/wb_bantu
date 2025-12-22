@@ -2,7 +2,7 @@
         spaceBetween: 0,
         centeredSlides: true,
         autoplay: {
-          delay: 2000,
+          delay: 100000,
           disableOnInteraction: false,
         },
         pagination: {
