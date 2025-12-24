@@ -1,0 +1,84 @@
+const menuHambur = document.getElementById('menu_hambur');
+const nav = document.getElementById('cont_links_nav');
+const estado_mobile = window.matchMedia("(max-width:768px)");
+
+menuHambur.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+
+if (estado_mobile.matches) {
+    console.log("Entre en mobile")
+    document.getElementById('id_contacto').innerHTML =
+        `
+            <div class="f_nav_1">
+                <div class="cont_derechos" data-aos="fade-up">
+                <div class="cont_logo_derechos">
+                    <img src="./img/logo.png">
+                </div>
+                <p>&copy;Todos los derechos reservadors por CLOFEA SRL</p>
+                </div>
+                <div class="cont_datos_contacto" data-aos="fade-left">
+                    <div>
+                    <p>Horario de Atencion: Lunes a Viernes 09hs-17hs</p>
+                    <p>Ubicacion: Dr. Eduardo Jenner 1805 <a href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i
+                                class="fa-solid fa-location-dot"></i></a></p>
+                    </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.240712067003!2d-58.3942540235096!3d-34.62335685853701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2107cb64df%3A0xb612906c608e5b3b!2sCaf%C3%A9%20Bantu%20Oficinas%20Comerciales!5e0!3m2!1ses!2sar!4v1755493132581!5m2!1ses!2sar"
+                    width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="f_nav_2">
+               <div class="cont_redes" data-aos="fade-right">
+                <div class="cont_red">
+                    
+                        <a href="https://www.instagram.com/cafebantu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/cafebantu/?locale=es_LA" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    
+                   
+                        <a href=" https://wa.me/+541126393433" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href=" https://wa.me/+541126393433" target="_blank">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    
+                </div>
+            </div>
+            </div>
+            
+            `
+
+    document.getElementById('cont_img_slider_inicio').innerHTML = 
+        `
+        <div class="swiper-wrapper">
+                <diV class="swiper-slide">
+                    <div>
+                        <img src="./img/slider_mobile/sl1A_mobile.png">
+                    </div>
+                </div>
+                <diV class="swiper-slide">
+                    <div>
+                        <img src="./img/slider_mobile/sl1B_mobile.png">
+                    </div>
+                </div>
+                <diV class="swiper-slide">
+                    <div>
+                        <img src="./img/slider_mobile/sl2A_hd.png">
+                    </div>
+                </div>
+                <diV class="swiper-slide">
+                    <div>
+                        <img src="./img/slider_mobile/sl2B_hd.png">
+                    </div>
+                </div>
+            </div>
+        `
+    
+}

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/nav_footer.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
@@ -21,10 +22,11 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
             <div class="logo"><img src="./img/logo-removebg-preview.png"></div>
-            <div class="cont_links_nav">
+            <button id="menu_hambur" class="menu_hambur"><i class="fa-solid fa-bars"></i></button>
+            <div class="cont_links_nav" id="cont_links_nav">
                 <a href="#" class="link_nav">Inicio</a>
                 <div class="menu">
                     <a class="link_nav maquinas">Maquinas</a>
@@ -47,10 +49,9 @@
         </nav>
     </header>
     <section class="seccion_inicio">
-        <div class="swiper-container mySwiper cont_img_slider_inicio" data-aos="zoom-in">
+        <div class="swiper-container mySwiper cont_img_slider_inicio" id="cont_img_slider_inicio" data-aos="zoom-in">
             <div class="swiper-wrapper">
-                <diV class="swiper-slide">
-
+                <div class="swiper-slide">
                     <div>
                         <a class=link_slider_maquina_cafe1 href="/html/maquinas.html"></a>
                         <a class=link_slider_maquina_cafe2 href="/html/maquinas.html"></a>
@@ -66,8 +67,6 @@
                     <div><img src="./img/sl2_hd.png"></div>
                 </diV>
             </div>
-
-
         </div>
         <div class="cont_texto" data-aos="fade-up" data-aos-delay="400">
             <div class="cont_texto_img_1">
@@ -122,7 +121,6 @@
             </div>
 
         </div>
-
     </section>
     <footer>
         <nav class="cont_nav" id="id_contacto">
@@ -167,6 +165,7 @@
             </div>
         </nav>
     </footer>
+    <script src="./js/nav_footer_mobile.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
