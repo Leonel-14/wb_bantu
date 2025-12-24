@@ -11,13 +11,13 @@ if (estado_mobile.matches) {
     document.getElementById('id_contacto').innerHTML =
         `
             <div class="f_nav_1">
-                <div class="cont_derechos" data-aos="fade-up">
+                <div class="cont_derechos">
                 <div class="cont_logo_derechos">
                     <img src="./img/logo.png">
                 </div>
                 <p>&copy;Todos los derechos reservadors por CLOFEA SRL</p>
                 </div>
-                <div class="cont_datos_contacto" data-aos="fade-left">
+                <div class="cont_datos_contacto">
                     <div>
                     <p>Horario de Atencion: Lunes a Viernes 09hs-17hs</p>
                     <p>Ubicacion: Dr. Eduardo Jenner 1805 <a href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i
@@ -30,7 +30,7 @@ if (estado_mobile.matches) {
                 </div>
             </div>
             <div class="f_nav_2">
-               <div class="cont_redes" data-aos="fade-right">
+               <div class="cont_redes">
                 <div class="cont_red">
                     
                         <a href="https://www.instagram.com/cafebantu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
