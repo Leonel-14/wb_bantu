@@ -1,6 +1,7 @@
 const api_url = "https://leonel-14.github.io/API_PRUEBA/Api.json";
 //const cargador = `<div id="cargador" class="loader"></div>`
 const div_bebida = document.getElementById('cont_img_bebida');
+const estado_mobile = window.matchMedia("(max-width:768px)");
 fetch(api_url)
     .then(response => {
         // Convierte la respuesta a formato JSON
@@ -34,7 +35,54 @@ function Estructura_Slider(data) {
         imagen2 = Object.values(element.img)[1]
         imagen3 = Object.values(element.img)[2]
 
-        if (i % 2 == 0) {
+
+        if (estado_mobile.matches) {
+            document.getElementById("cont_maquina_cafe").innerHTML +=
+                `
+        <div class="cont_slider_especificaciones">
+        <div class="slider" id="slider"> 
+                <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
+                <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
+                    <div class="swiper-wrapper" id="swiper-wrapper">
+                        <div class="swiper-slide"">
+                            <img src=${imagen1} alt="img1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src=${imagen2}>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src=${imagen1}>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+        </div>
+        <div class="cont_bebidas_especificaciones">
+                <div class="cont_bebidas" id="cont_bebidas">
+                    <div class="cont_beb" id="cont_beb" data-aos="fade-up">
+                   
+                        <div class="cont_bebida" id="cont_bebida">
+                        ${Generar_Bebida(element)}
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_especificaciones" data-aos="fade-up">
+                    <p>Peso: 125kg</p>
+                    <p>Dimensiones: 67 x 58 x 183 cm</p>
+                    <p>Marca: Saeco</p>
+                    <p>Tension: 230V</p>
+                    <p>Potencia Maxima: 1450W</p>
+                    <p>Cantidad de bebidas: 16</p>
+                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
+                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
+
+                </div>
+        </div>
+        </div>
+        `
+        }
+        else{
+            if (i % 2 == 0) {
             document.getElementById("cont_maquina_cafe").innerHTML +=
                 `
         <div class="cont_slider_especificaciones">
@@ -124,8 +172,7 @@ function Estructura_Slider(data) {
         </div>
         
         `
-
-        }
+        }}
         i++;
 
         var swiper = new Swiper(".mySwiper", {
@@ -411,7 +458,9 @@ function Generar_Bebida(dato) {
    
     return bebidas;
 }
+function Estructura_Slider_Cafe_Mobile(dato){
 
+}
 /*
 var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",

@@ -3,25 +3,30 @@
     src: url(../fonts/Bubble\ Sans\ Regular\ 1.001.otf);
 }
 
-.seccion_maquina{
+.seccion_maquina {
     max-width: 100%;
     background-color: #42220A;
     height: min-content;
     overflow: hidden;
 }
-.titulo_maquina{
+
+
+.titulo_maquina {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.cont_img_titulo{
+
+.cont_img_titulo {
     width: 500px;
     height: 200px;
 }
-.titulo_maquina img{
+
+.titulo_maquina img {
     width: 100%;
 }
-.nombre_maquina{
+
+.nombre_maquina {
     width: 100%;
     text-align: center;
     height: min-content;
@@ -29,7 +34,7 @@
     color: black;
 }
 
-.cont_maquina_cafe{
+.cont_maquina_cafe {
     display: grid;
     max-width: 100%;
     min-height: 100vh;
@@ -37,59 +42,70 @@
     justify-items: center;
     align-items: center;
 }
-.cont_slider_especificaciones{
+
+.cont_slider_especificaciones {
     width: 100%;
     max-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 2em;
     justify-items: center;
-   
+
 }
-.slider{
+
+.slider {
     width: 40em;
     height: 40em;
     overflow: hidden;
 }
-.swiper-wrapper{
-    width:  100%;
+
+.swiper-wrapper {
+    width: 100%;
     height: 100%;
     display: flex;
 }
-.swiper-slide{
+
+.swiper-slide {
     min-width: 100%;
     height: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.swiper-slide img{
+
+.swiper-slide img {
     width: 65%;
 }
-.cont_bebidas_especificaciones{
+
+.cont_bebidas_especificaciones {
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-rows: 1fr 1fr;
     gap: 2em;
-    
+
 }
-.cont_bebidas, .cont_bebidas_2{
+
+.cont_bebidas,
+.cont_bebidas_2 {
     background-color: #eeb61a;
     display: flex;
-    align-items:center;
+    align-items: center;
     padding: 1em;
 }
-.cont_bebidas{
+
+.cont_bebidas {
     border-radius: 30em 0 0 30em;
     justify-content: right;
 }
-.cont_bebidas_2{
+
+.cont_bebidas_2 {
     border-radius: 0 30em 30em 0;
     justify-content: center;
 }
-.cont_bebida,.cont_bebida_2{
+
+.cont_bebida,
+.cont_bebida_2 {
     width: 56em;
     max-height: 400px;
     display: flex;
@@ -97,17 +113,24 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+  
 }
-.cont_bebida{
+
+
+.cont_bebida {
     margin-left: 3em;
 }
-.cont_bebida_2{
+
+.cont_bebida_2 {
+
     margin-right: 3em;
 }
-.nombre_cafe{
+
+.nombre_cafe {
     text-align: center;
 }
-.cont_especificaciones{
+
+.cont_especificaciones {
     width: 100%;
     height: 100%;
     display: flex;
@@ -116,16 +139,19 @@
     flex-wrap: wrap;
     gap: 2em;
 }
-.cont_especificaciones p{
+
+.cont_especificaciones p {
     font-size: 1.7em;
     color: black;
 }
 
-.cont_img_bebida{
+.cont_img_bebida {
     width: 100px;
     height: 150px;
 
 }
-.cont_img_bebida img{
+
+.cont_img_bebida img {
     width: 100%;
 }
+

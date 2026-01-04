@@ -1,0 +1,346 @@
+@media screen and (min-width:0px) and (max-width:320px){
+    .seccion_maquina{
+        width: 100%;
+        height: auto;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+        background-color: #42220A;
+    }
+    .titulo_maquina{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombre_maquina{
+        font-size:1.5em
+    }
+    .cont_img_titulo{
+        width: 15em;
+        height: auto;
+    }
+    .cont_img_titulo img{
+        width: 100%;
+    }
+    /*-----------*/
+    .cont_maquina_cafe{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        color: black;
+    }
+    .cont_slider_especificaciones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: fit-content;
+    }
+    .slider{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        align-items: center;
+        height: auto;
+    }
+    .swiper-container{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        width:20em;
+    }
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .swiper-slide {
+        width: 15em;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+
+    .cont_bebidas_especificaciones{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+        height: auto;
+    }
+    .cont_bebidas,.cont_bebidas_2{
+        width: 100%;
+        display: flex;
+        border-radius: 0px;
+    }
+    .cont_beb{
+        width: 100%;
+        height: auto;
+    }
+    .cont_bebida,.cont_bebida_2{
+    padding: 0.5em;
+    background-color: #eeb61a;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    max-height: fit-content;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 100%;
+
+    }
+    .cont_img_bebida{
+        width: 3.5em;
+        text-align: center;
+        justify-items: center;
+    }
+    .cont_img_bebida img{
+        width: 100%;
+    }
+    .cont_especificaciones{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+    .cont_especificaciones p{
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:321px) and (max-width:425px) {
+    .seccion_maquina{
+        width: 100%;
+        height: auto;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+        background-color: #42220A;
+    }
+    .titulo_maquina{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombre_maquina{
+        font-size:1.5em
+    }
+    .cont_img_titulo{
+        width: 15em;
+        height: auto;
+    }
+    .cont_img_titulo img{
+        width: 100%;
+    }
+    /*-----------*/
+    .cont_maquina_cafe{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        color: black;
+    }
+    .cont_slider_especificaciones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: fit-content;
+    }
+    .slider{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        align-items: center;
+        height: auto;
+    }
+    .swiper-container{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        width:20em;
+    }
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .swiper-slide {
+        width: 15em;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+
+    .cont_bebidas_especificaciones{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+        height: auto;
+    }
+    .cont_bebidas,.cont_bebidas_2{
+        width: 100%;
+        display: flex;
+        border-radius: 0px;
+    }
+    .cont_beb{
+        width: 100%;
+        height: auto;
+    }
+    .cont_bebida,.cont_bebida_2{
+    padding: 0.5em;
+    background-color: #eeb61a;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    max-height: fit-content;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 100%;
+
+    }
+    .cont_img_bebida{
+        width: 4em;
+        text-align: center;
+        justify-items: center;
+    }
+    .cont_img_bebida img{
+        width: 100%;
+    }
+    .cont_especificaciones{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+    .cont_especificaciones p{
+        font-size: 1em;
+    }
+}
+@media (min-width:426px) and (max-width:768px) {
+    .seccion_maquina{
+        width: 100%;
+        height: auto;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+        background-color: #42220A;
+    }
+    .titulo_maquina{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombre_maquina{
+        font-size:1.5em
+    }
+    .cont_img_titulo{
+        width: 15em;
+        height: auto;
+    }
+    .cont_img_titulo img{
+        width: 100%;
+    }
+    /*-----------*/
+    .cont_maquina_cafe{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        color: black;
+    }
+    .cont_slider_especificaciones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: fit-content;
+    }
+    .slider{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        align-items: center;
+        height: auto;
+    }
+    .swiper-container{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        width:20em;
+    }
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .swiper-slide {
+        width: 15em;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+
+    .cont_bebidas_especificaciones{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+        height: auto;
+    }
+    .cont_bebidas,.cont_bebidas_2{
+        width: 100%;
+        display: flex;
+        border-radius: 0px;
+    }
+    .cont_beb{
+        width: 100%;
+        height: auto;
+    }
+    .cont_bebida,.cont_bebida_2{
+    padding: 0.5em;
+    background-color: #eeb61a;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    max-height: fit-content;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 100%;
+
+    }
+    .cont_img_bebida{
+        width: 4em;
+        text-align: center;
+        justify-items: center;
+    }
+    .cont_img_bebida img{
+        width: 100%;
+    }
+    .cont_especificaciones{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+
+    .cont_especificaciones p{
+        font-size: 1.1em;
+    }
+}

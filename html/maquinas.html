@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/nav_footer.css">
     <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/maquina.css">
+    <link rel="stylesheet" href="../css/maquina.css"> 
+    <link rel="stylesheet" href="../css/maquina_cafe_mobile.css">
  <!--   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">--> 
   <!--  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> --> 
     <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
@@ -28,19 +29,21 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
             <div class="logo"><img src="../img/logo-removebg-preview.png"></div>
-            <div class="cont_links_nav">
-                <a href="../index.html" class="link_nav">Inicio</a>
+            <button id="menu_hambur" class="menu_hambur"><i class="fa-solid fa-bars"></i></button>
+            <div class="cont_links_nav" id="cont_links_nav">
+                <a href="#" class="link_nav">Inicio</a>
                 <div class="menu">
                     <a class="link_nav maquinas">Maquinas</a>
                     <!--inicio submenu-->
                     <div class="submenu">
                         <div class="cont_sub_links">
-                            <a class="sub_link_maquinas" href="/html/maquinas.html">Cafe</a>
-                            <a class="sub_link_maquinas" href="/html/en_construccion.html">Snacks</a> <!--/html/maquinas_snack.html-->
-                            <a class="sub_link_maquinas" href="/html/en_construccion.html">Mini Vending</a> 
+                            <a class="sub_link_maquinas" href="../html/maquinas.html">Cafe</a>
+                            <a class="sub_link_maquinas" href="../html/en_construccion.html">Snacks</a>
+                            <!--/html/maquinas_snack.html-->
+                            <a class="sub_link_maquinas" href="../html/en_construccion.html">Mini Vending</a>
                         </div>
                     </div>
                     <!--fin de submenu-->
@@ -104,6 +107,7 @@
             </div>
         </nav>
     </footer>
+    <script src="../js/nav_footer_mobile.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!---
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
