@@ -25,7 +25,7 @@ if (consulta_ventana()) {
                 <div class="cont_logo_derechos">
                     <img src="./img/logo.png">
                 </div>
-                <p>&copy;Todos los derechos reservadors por CLOFEA SRL</p>
+                <p>&copy;Todos los derechos reservados por CLOFEA SRL</p>
                 </div>
                 <div class="cont_datos_contacto">
                     <div>
