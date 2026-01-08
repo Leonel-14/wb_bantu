@@ -437,7 +437,7 @@ function Mostrar_Bebida(dato) {
     let algo = Object.entries(dato.bebida)
     let algo2 = Object.keys(dato.bebida)
     algo.forEach(element => {
-        console.log("Nombre -->", element[0])
+       // console.log("Nombre -->", element[0])
     }
     );
 }

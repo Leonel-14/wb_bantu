@@ -297,3 +297,24 @@ footer .cont_nav{
         border: 0px;
     }
 }
+@media (min-width:769px) and (max-width:1024px) {
+    footer .cont_nav{
+        grid-template-columns: auto 1fr 1fr;
+        
+    }
+    .cont_red div{
+        gap: 2em;
+    }
+    .cont_red i{
+        font-size: 4em;
+    }
+    .cont_logo_derechos{
+        width: 18em;
+    }
+    .cont_derechos p{
+        font-size: 0.8em;
+    }
+    .cont_datos_contacto iframe{
+        width: 400px;
+    }
+}

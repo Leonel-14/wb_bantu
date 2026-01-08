@@ -156,3 +156,15 @@ section{
         display: none;
 }
 }
+@media (min-width:768px) and (max-width:1024px) {
+    .cont_texto {
+        flex-wrap: wrap;
+        gap: 1em;
+        height: auto;
+        margin-bottom: 1em;
+    }
+    .seccion_inicio  {
+        grid-template-rows: auto 1fr;
+        gap: 2em;
+    }
+}

@@ -1,0 +1,174 @@
+@media (min-width:0px) and (max-width:425px) {
+    .servicios_medios_pago{
+    width: 100%;
+    min-height: auto;
+    gap: 0px;
+    overflow: hidden;
+    }
+    .seccion_medios_pago{
+        margin-top: 0px;
+        height: auto;
+        gap: 0px;
+        justify-items: center;
+    }
+    .seccion_medios_pago,.seccion_servicios{
+        margin-top: 0px;
+        width: 100%;
+
+    }
+    .cont_medios_pago{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        justify-items: center;
+        gap: 1em;
+        margin-bottom: 2em;
+
+    }
+    .medio_pago{
+        width: 10em;
+        height: auto;
+        padding: 5px;
+        gap: 0px;
+        justify-content: space-around;
+    }
+    .medio_pago .cont_img_pago{
+        width: 70px;
+    }
+    .medio_pago .cont_img_pago img{
+        width: 100%;
+    }
+    
+    .medio_pago .texto_pago{
+        font-size: 0.8em;
+    }
+    .descripcion_medio_pago{
+        width: 24em;
+        height: auto;
+        font-size: 1em;
+       margin: 1em;
+    }
+    .descripcion_medio_pago h4{
+        font-size: 1.1em;
+    }
+
+    .cont_servicios{
+        gap: 1em;
+    }
+
+    .descripcion_servicio{
+         width: 24em;
+        height: auto;
+        font-size: 1em;
+       margin: 1em;
+    }
+    .descripcion_servicio h4{
+        font-size: 1.1em;
+    }
+    .servicio1, .servicio2 , .servicio3{
+        width: 10em;
+        height: 15em;
+    }
+    .texto_servicio{
+        font-size: 0.7em;
+    }
+    .link_consulta_servicio{
+        font-size: 0.7em;
+    }
+}
+
+
+@media (min-width:426px) and (max-width:768px) {
+    .servicios_medios_pago{
+    width: 100%;
+    min-height: auto;
+    gap: 0px;
+    overflow: hidden;
+    }
+    .seccion_medios_pago{
+        margin-top: 0px;
+        height: auto;
+        gap: 0px;
+        justify-items: center;
+    }
+    .seccion_medios_pago,.seccion_servicios{
+        margin-top: 0px;
+        width: 100%;
+
+    }
+    .cont_medios_pago{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+        justify-items: center;
+        gap: 1em;
+        margin-bottom: 2em;
+
+    }
+    .medio_pago{
+        width: 10em;
+        height: auto;
+        padding: 5px;
+        gap: 0px;
+        justify-content: center;
+    }
+    .medio_pago .cont_img_pago{
+        width: 70px;
+    }
+    .medio_pago .cont_img_pago img{
+        width: 100%;
+    }
+    
+    .medio_pago .texto_pago{
+        font-size: 0.8em;
+    }
+    .descripcion_medio_pago{
+        width: 100%;
+        height: auto;
+        padding: 1em;
+    }
+    .descripcion_medio_pago h4{
+        font-size: 1em;
+    }
+    .cont_servicios{
+        gap: 1em;
+    }
+    .descripcion_servicio{
+         width: 100%;
+        height: auto;
+        padding: 1em;
+    }
+    .descripcion_servicio h4{
+        font-size: 1.1em;
+    }
+    .servicio1, .servicio2 , .servicio3{
+        width: 13em;
+        height: 19em;
+    }
+    .texto_servicio{
+        font-size: 1em;
+    }
+    .link_consulta_servicio{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .descripcion_medio_pago{
+        width: 100%;
+        height: auto;
+    }
+    .cont_medios_pago{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 1em;
+    }
+    .descripcion_servicio{
+        width: 100%;
+    }
+    .descripcion_medio_pago, .descripcion_servicio{
+        padding: 1em;
+    }
+}

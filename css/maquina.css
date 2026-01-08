@@ -155,3 +155,36 @@
     width: 100%;
 }
 
+@media (min-width:769px) and (max-width:1024px) {
+    .cont_img_bebida{
+        width: 65px;
+        height:auto;
+    }
+    .cont_img_bebida p{
+        font-size: 0.7em;
+    }
+    .cont_bebida, .cont_bebida_2{
+        width: max-content;
+        height: auto;
+    }
+    .nombre_maquina{
+        font-size: 2em;
+    }
+    .slider{
+        width: 27em;
+    }
+    .cont_especificaciones{
+        gap: 0.5em;
+    }
+    .cont_especificaciones p{
+        font-size: 1.3em;
+        gap: 1em;
+    }
+    .cont_bebidas_especificaciones{
+        gap: 1em;
+        grid-template-rows: auto 1fr;
+    }
+    .cont_bebidas{
+        justify-content: center;
+    }
+}

@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/nav_footer.css">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/nav_footer.css">
     <link rel="stylesheet" href="../css/maquina.css"> 
     <link rel="stylesheet" href="../css/maquina_cafe_mobile.css">
+    <link rel="stylesheet" href="../css/whatssap_flotante.css">
  <!--   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">--> 
   <!--  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> --> 
     <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
@@ -34,7 +35,7 @@
             <div class="logo"><img src="../img/logo-removebg-preview.png"></div>
             <button id="menu_hambur" class="menu_hambur"><i class="fa-solid fa-bars"></i></button>
             <div class="cont_links_nav" id="cont_links_nav">
-                <a href="#" class="link_nav">Inicio</a>
+                <a href="../html/inicio.html" class="link_nav">Inicio</a>
                 <div class="menu">
                     <a class="link_nav maquinas">Maquinas</a>
                     <!--inicio submenu-->
@@ -98,7 +99,8 @@
             <div class="cont_datos_contacto" data-aos="fade-left">
                 <div>
                     <p>Horario de Atencion: Lunes a Viernes 09hs-17hs</p>
-                    <p>Ubicacion: Dr. Eduardo Jenner 1805 <a href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i class="fa-solid fa-location-dot"></i></a></p>
+                    <p>Ubicacion: Dr. Eduardo Jenner 1805 <a href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i
+                                class="fa-solid fa-location-dot"></i></a></p>
                 </div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.240712067003!2d-58.3942540235096!3d-34.62335685853701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2107cb64df%3A0xb612906c608e5b3b!2sCaf%C3%A9%20Bantu%20Oficinas%20Comerciales!5e0!3m2!1ses!2sar!4v1755493132581!5m2!1ses!2sar"
@@ -107,7 +109,9 @@
             </div>
         </nav>
     </footer>
-    <script src="../js/nav_footer_mobile.js"></script>
+     <div class="wsp_flotante" id="wsp">
+                        <a href="https://wa.me/+541126393433" target="_blank"><img src="../img/redes/whatsapp.svg"></a>
+                    </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!---
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -116,7 +120,9 @@
     </script>
 -->
     <script src="../js/slider_maquina.js"></script>
+    <script src="../js/nav_footer_mobile.js"></script>
     <script src="../js/api.js"></script>
+    
 </body>
 
 </html>
