@@ -25,24 +25,26 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
             <div class="logo"><img src="../img/logo-removebg-preview.png"></div>
-            <div class="cont_links_nav">
-                <a href="../html/index.html" class="link_nav">Inicio</a>
+            <button id="menu_hambur" class="menu_hambur"><i class="fa-solid fa-bars"></i></button>
+            <div class="cont_links_nav" id="cont_links_nav">
+                <a href="/index.html" class="link_nav">Inicio</a>
                 <div class="menu">
                     <a class="link_nav maquinas">Maquinas</a>
                     <!--inicio submenu-->
                     <div class="submenu">
                         <div class="cont_sub_links">
-                            <a class="sub_link_maquinas" href="/html/maquinas.html">Cafe</a>
-                            <a class="sub_link_maquinas" href="/html/en_construccion.html">Snacks</a> <!--/html/maquinas_snack.html-->
-                            <a class="sub_link_maquinas" href="/html/en_construccion.html">Mini Vending</a> 
+                            <a class="sub_link_maquinas" href="maquinas.html">Cafe</a>
+                            <a class="sub_link_maquinas" href="en_construccion.html">Snacks</a>
+                            <!--/html/maquinas_snack.html-->
+                            <a class="sub_link_maquinas" href="en_construccion.html">Mini Vending</a>
                         </div>
                     </div>
                     <!--fin de submenu-->
                 </div>
-                <a href="../html/servicios.html" class="link_nav">Servicios</a>
+                <a href="servicios.html" class="link_nav">Servicios</a>
                 <a href="#id_contacto" class="link_nav">Contacto</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJnKVpQ_16n_APdSItq_pgIOWE7Kij1z42l8m3riEqnde78g/viewform?usp=header" target="_blank" class="link_nav">Se parte de nosotros</a>
                 <a href="#" id="compra_cafe" class="link_nav">Compra Cafe</a>
@@ -85,7 +87,8 @@
             <div class="cont_datos_contacto" data-aos="fade-left">
                 <div>
                     <p>Horario de Atencion: Lunes a Viernes 09hs-17hs</p>
-                    <p>Ubicacion: Dr. Eduardo Jenner 1805 <a href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i class="fa-solid fa-location-dot"></i></a></p>
+                    <p>Ubicacion: Dr. Eduardo Jenner 1805 <a href="https://maps.app.goo.gl/tnHmzsNdJD6RUVGc8"><i
+                                class="fa-solid fa-location-dot"></i></a></p>
                 </div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.240712067003!2d-58.3942540235096!3d-34.62335685853701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2107cb64df%3A0xb612906c608e5b3b!2sCaf%C3%A9%20Bantu%20Oficinas%20Comerciales!5e0!3m2!1ses!2sar!4v1755493132581!5m2!1ses!2sar"
@@ -98,6 +101,7 @@
                         <a href="https://wa.me/+541126393433" target="_blank"><img src="../img/redes/whatsapp.svg"></a>
                     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/nav_footer_mobile.js"></script>
     <script>
         AOS.init();
     </script>
