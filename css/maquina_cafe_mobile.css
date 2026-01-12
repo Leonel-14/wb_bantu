@@ -343,4 +343,10 @@
     .cont_especificaciones p{
         font-size: 1.1em;
     }
+    .swiper-button-next{
+    right: 0%;
+}
+    .swiper-button-prev{
+    left: 0%;
+}
 }

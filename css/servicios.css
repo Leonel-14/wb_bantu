@@ -23,6 +23,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
+    gap: 1em;
 }
 .descripcion_medio_pago,.descripcion_servicio{
     width: 70em;

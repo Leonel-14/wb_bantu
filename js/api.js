@@ -10,10 +10,10 @@ fetch(api_url)
     .then(data => {
         // Llama a una función para mostrar los datos
         Mostrar("hola\n", data);
-        
+
         if (document.getElementById("cont_maquina_cafe")) {
-             Estructura_Slider(data);
-             
+            Estructura_Slider(data);
+
         }
         if (document.getElementById("cont_maquina_snacks")) {
             Estructura_Snacks(data);
@@ -29,7 +29,7 @@ function Estructura_Slider(data) {
     let i = 0;
     maquina_cafe = Object.values(data.maquinas_cafe);
     maquina_cafe.forEach(element => {
-        
+
         Mostrar_Bebida(element)
         imagen1 = Object.values(element.img)[0]
         imagen2 = Object.values(element.img)[1]
@@ -54,53 +54,9 @@ function Estructura_Slider(data) {
                             <img src=${imagen1}>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev prev${i}"></div>
+                    <div class="swiper-button-next next${i}"></div>
                 </div>
-        </div>
-        <div class="cont_bebidas_especificaciones">
-                <div class="cont_bebidas" id="cont_bebidas">
-                    <div class="cont_beb" id="cont_beb" data-aos="fade-up">
-                   
-                        <div class="cont_bebida" id="cont_bebida">
-                        ${Generar_Bebida(element)}
-                        </div>
-                    </div>
-                </div>
-                <div class="cont_especificaciones" data-aos="fade-up">
-                    <p>Peso: 125kg</p>
-                    <p>Dimensiones: 67 x 58 x 183 cm</p>
-                    <p>Marca: Saeco</p>
-                    <p>Tension: 230V</p>
-                    <p>Potencia Maxima: 1450W</p>
-                    <p>Cantidad de bebidas: 16</p>
-                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
-                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
-
-                </div>
-        </div>
-        </div>
-        `
-        }
-        else{
-            if (i % 2 == 0) {
-            document.getElementById("cont_maquina_cafe").innerHTML +=
-                `
-        <div class="cont_slider_especificaciones">
-        <div class="slider" id="slider"> 
-                <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
-                <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
-                    <div class="swiper-wrapper" id="swiper-wrapper">
-                        <div class="swiper-slide"">
-                            <img src=${imagen1} alt="img1">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src=${imagen2}>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src=${imagen1}>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
                 </div>
         </div>
         <div class="cont_bebidas_especificaciones">
@@ -128,8 +84,57 @@ function Estructura_Slider(data) {
         `
         }
         else {
-            document.getElementById("cont_maquina_cafe").innerHTML +=
-                `
+            if (i % 2 == 0) {
+                document.getElementById("cont_maquina_cafe").innerHTML +=
+                    `
+        <div class="cont_slider_especificaciones">
+        <div class="slider" id="slider"> 
+                <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
+                <div class="swiper-container mySwiper mySwiperA" id="mySwiper" data-aos="fade-left">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                <div class="swiper-slide"">
+                <img src=${imagen1} alt="img1">
+                </div>
+                <div class="swiper-slide">
+                <img src=${imagen2}>
+                </div>
+                <div class="swiper-slide">
+                <img src=${imagen1}>
+                </div>
+                </div>
+                <div class="swiper-button-prev prev${i}"></div>
+                <div class="swiper-button-next next${i}"></div>
+                   
+                    </div>
+        </div>
+        <div class="cont_bebidas_especificaciones">
+                <div class="cont_bebidas" id="cont_bebidas">
+                    <div class="cont_beb" id="cont_beb" data-aos="fade-up">
+                   
+                        <div class="cont_bebida" id="cont_bebida">
+                        ${Generar_Bebida(element)}
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_especificaciones" data-aos="fade-up">
+                    <p>Peso: 125kg</p>
+                    <p>Dimensiones: 67 x 58 x 183 cm</p>
+                    <p>Marca: Saeco</p>
+                    <p>Tension: 230V</p>
+                    <p>Potencia Maxima: 1450W</p>
+                    <p>Cantidad de bebidas: 16</p>
+                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
+                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
+
+                </div>
+        </div>
+        </div>
+        `
+
+            }
+            else {
+                document.getElementById("cont_maquina_cafe").innerHTML +=
+                    `
         <div class="cont_slider_especificaciones">
             <div class="cont_bebidas_especificaciones">
                 <div class="cont_bebidas_2">
@@ -153,8 +158,9 @@ function Estructura_Slider(data) {
                 </div>
             </div>
             <div class="slider" id="slider"> 
-                <h2 class="nombre_maquina">${element.modelo}</h2>
-                <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
+            <h2 class="nombre_maquina">${element.modelo}</h2>
+            
+                <div class="swiper-container mySwiper mySwiperB" id="mySwiper" data-aos="fade-left">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src=${imagen1} alt="img1">
@@ -166,32 +172,26 @@ function Estructura_Slider(data) {
                             <img src=${imagen1}>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>
+
+                    
+                <div class="swiper-button-prev prev${i}"></div>
+                <div class="swiper-button-next next${i}"></div>
         </div>
         </div>
         
         `
-        }}
-        i++;
+            }
+        }
 
-        var swiper = new Swiper(".mySwiper", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            pagination: {
-                el: ".swiper-pagination",
+        var swiper = new Swiper(`.mySwiper`, {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
 
+
+        i++;
     });
 
 }
@@ -225,8 +225,8 @@ function Estructura_Snacks(data) {
 
         if (i % 2 == 0) {
 
-        document.getElementById("cont_maquina_snacks").innerHTML +=
-            `
+            document.getElementById("cont_maquina_snacks").innerHTML +=
+                `
         <div class="cont_slider_especificaciones">
             <div class="slider" id="slider"> 
                 <h2 class="nombre_maquina">${element.modelo}</h2>
@@ -363,10 +363,10 @@ function Estructura_Snacks(data) {
             </div>
         </div>
         `
-         }
+        }
         else {
             document.getElementById("cont_maquina_snacks").innerHTML +=
-            `
+                `
             <div class="cont_slider_especificaciones">
                 <div class="cont_snacks_especificaciones">
                 <div class="cont_snacks">
@@ -409,7 +409,7 @@ function Estructura_Snacks(data) {
             `
         }
         i++;
-        
+
         var swiper = new Swiper(".mySwiper", {
             effect: "coverflow",
             grabCursor: true,
@@ -437,16 +437,16 @@ function Mostrar_Bebida(dato) {
     let algo = Object.entries(dato.bebida)
     let algo2 = Object.keys(dato.bebida)
     algo.forEach(element => {
-       // console.log("Nombre -->", element[0])
+        // console.log("Nombre -->", element[0])
     }
     );
 }
 function Generar_Bebida(dato) {
     let bebidas = ""
     cafe = Object.entries(dato.bebida)
-    
+
     cafe.forEach(element => {
-            bebidas +=
+        bebidas +=
             `
             <div class="cont_img_bebida id="cont_img_bebida">
                     <img src="${element[1]}">
@@ -455,10 +455,10 @@ function Generar_Bebida(dato) {
         `
     })
 
-   
+
     return bebidas;
 }
-function Estructura_Slider_Cafe_Mobile(dato){
+function Estructura_Slider_Cafe_Mobile(dato) {
 
 }
 /*
