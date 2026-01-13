@@ -59,7 +59,7 @@
         flex-direction: row;
     }
     .swiper-slide {
-        width: 15em;
+        width: 20em;
     }
     .swiper-slide img{
         width: 100%;
@@ -289,7 +289,7 @@
         flex-direction: row;
     }
     .swiper-slide {
-        width: 15em;
+        width: 14em;
     }
     .swiper-slide img{
         width: 100%;
