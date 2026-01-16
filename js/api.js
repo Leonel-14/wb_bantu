@@ -69,12 +69,12 @@ function Estructura_Slider(data) {
                     </div>
                 </div>
                 <div class="cont_especificaciones" data-aos="fade-up">
-                    <p>Peso: 125kg</p>
-                    <p>Dimensiones: 67 x 58 x 183 cm</p>
-                    <p>Marca: Saeco</p>
+                    <p>Peso: ${element.peso}</p>
+                    <p>Dimensiones:${element.dimension}</p>
+                    <p>Marca: ${element.marca}</p>
                     <p>Tension: 230V</p>
-                    <p>Potencia Maxima: 1450W</p>
-                    <p>Cantidad de bebidas: 16</p>
+                    <p>Potencia Maxima: ${element.potencia}</p>
+                    <p>Cantidad de bebidas: ${element.cantidad_bebidas}</p>
                     <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
                     <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
 
@@ -117,12 +117,12 @@ function Estructura_Slider(data) {
                     </div>
                 </div>
                 <div class="cont_especificaciones" data-aos="fade-up">
-                    <p>Peso: 125kg</p>
-                    <p>Dimensiones: 67 x 58 x 183 cm</p>
-                    <p>Marca: Saeco</p>
+                    <p>Peso: ${element.peso}</p>
+                    <p>Dimensiones:${element.dimension}</p>
+                    <p>Marca: ${element.marca}</p>
                     <p>Tension: 230V</p>
-                    <p>Potencia Maxima: 1450W</p>
-                    <p>Cantidad de bebidas: 16</p>
+                    <p>Potencia Maxima: ${element.potencia}</p>
+                    <p>Cantidad de bebidas: ${element.cantidad_bebidas}</p>
                     <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
                     <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
 
@@ -146,12 +146,12 @@ function Estructura_Slider(data) {
                     </div>
                 </div>
                 <div class="cont_especificaciones" data-aos="fade-up">
-                    <p>Peso: 125kg</p>
-                    <p>Dimensiones: 67 x 58 x 183 cm</p>
-                    <p>Marca: Saeco</p>
+                    <p>Peso: ${element.peso}</p>
+                    <p>Dimensiones:${element.dimension}</p>
+                    <p>Marca: ${element.marca}</p>
                     <p>Tension: 230V</p>
-                    <p>Potencia Maxima: 1450W</p>
-                    <p>Cantidad de bebidas: 16</p>
+                    <p>Potencia Maxima: ${element.potencia}</p>
+                    <p>Cantidad de bebidas: ${element.cantidad_bebidas}</p>
                     <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
                     <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
 
