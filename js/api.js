@@ -42,7 +42,7 @@ function Estructura_Slider(data) {
         <div class="cont_slider_especificaciones">
         <div class="slider" id="slider"> 
                 <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
-                <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
+                <div class="swiper-container mySwiper" id="mySwiper">
                     <div class="swiper-wrapper" id="swiper-wrapper">
                         <div class="swiper-slide"">
                             <img src=${imagen1} alt="img1">
@@ -54,21 +54,21 @@ function Estructura_Slider(data) {
                             <img src=${imagen1}>
                         </div>
                     </div>
-                    <div class="swiper-button-prev prev${i}"></div>
-                    <div class="swiper-button-next next${i}"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
                 </div>
         </div>
         <div class="cont_bebidas_especificaciones">
                 <div class="cont_bebidas" id="cont_bebidas">
-                    <div class="cont_beb" id="cont_beb" data-aos="fade-up">
+                    <div class="cont_beb" id="cont_beb">
                    
                         <div class="cont_bebida" id="cont_bebida">
                         ${Generar_Bebida(element)}
                         </div>
                     </div>
                 </div>
-                <div class="cont_especificaciones" data-aos="fade-up">
+                <div class="cont_especificaciones">
                     <p>Peso: ${element.peso}</p>
                     <p>Dimensiones:${element.dimension}</p>
                     <p>Marca: ${element.marca}</p>
@@ -90,7 +90,7 @@ function Estructura_Slider(data) {
         <div class="cont_slider_especificaciones">
         <div class="slider" id="slider"> 
                 <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
-                <div class="swiper-container mySwiper mySwiperA" id="mySwiper" data-aos="fade-left">
+                <div class="swiper-container mySwiper mySwiperA" id="mySwiper">
                 <div class="swiper-wrapper" id="swiper-wrapper">
                 <div class="swiper-slide"">
                 <img src=${imagen1} alt="img1">
@@ -102,21 +102,21 @@ function Estructura_Slider(data) {
                 <img src=${imagen1}>
                 </div>
                 </div>
-                <div class="swiper-button-prev prev${i}"></div>
-                <div class="swiper-button-next next${i}"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
                    
                     </div>
         </div>
         <div class="cont_bebidas_especificaciones">
                 <div class="cont_bebidas" id="cont_bebidas">
-                    <div class="cont_beb" id="cont_beb" data-aos="fade-up">
+                    <div class="cont_beb" id="cont_beb">
                    
                         <div class="cont_bebida" id="cont_bebida">
                         ${Generar_Bebida(element)}
                         </div>
                     </div>
                 </div>
-                <div class="cont_especificaciones" data-aos="fade-up">
+                <div class="cont_especificaciones">
                     <p>Peso: ${element.peso}</p>
                     <p>Dimensiones:${element.dimension}</p>
                     <p>Marca: ${element.marca}</p>
@@ -160,7 +160,7 @@ function Estructura_Slider(data) {
             <div class="slider" id="slider"> 
             <h2 class="nombre_maquina">${element.modelo}</h2>
             
-                <div class="swiper-container mySwiper mySwiperB" id="mySwiper" data-aos="fade-left">
+                <div class="swiper-container mySwiper mySwiperB" id="mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src=${imagen1} alt="img1">
@@ -174,8 +174,8 @@ function Estructura_Slider(data) {
                     </div>
 
                     
-                <div class="swiper-button-prev prev${i}"></div>
-                <div class="swiper-button-next next${i}"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
         </div>
         </div>
         
@@ -230,7 +230,7 @@ function Estructura_Snacks(data) {
         <div class="cont_slider_especificaciones">
             <div class="slider" id="slider"> 
                 <h2 class="nombre_maquina">${element.modelo}</h2>
-            <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
+            <div class="swiper-container mySwiper" id="mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src=${imagen1}>
@@ -349,7 +349,7 @@ function Estructura_Snacks(data) {
                                 
                         </div>
                 </div>
-                <div class="cont_especificaciones" data-aos="fade-up">
+                <div class="cont_especificaciones">
                     <p>Peso: 125kg</p>
                     <p>Dimensiones: 67 x 58 x 183 cm</p>
                     <p>Marca: Saeco</p>
@@ -375,7 +375,7 @@ function Estructura_Snacks(data) {
                         </div>
                     
                 </div>
-                <div class="cont_especificaciones" data-aos="fade-up">
+                <div class="cont_especificaciones">
                     <p>Peso: 125kg</p>
                     <p>Dimensiones: 67 x 58 x 183 cm</p>
                     <p>Marca: Saeco</p>
@@ -390,7 +390,7 @@ function Estructura_Snacks(data) {
 
             <div class="slider" id="slider"> 
                 <h2 class="nombre_maquina">${element.modelo}</h2>
-            <div class="swiper-container mySwiper" id="mySwiper" data-aos="fade-left">
+            <div class="swiper-container mySwiper" id="mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src=${imagen1} alt="img1">

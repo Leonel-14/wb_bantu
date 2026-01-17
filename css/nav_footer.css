@@ -53,6 +53,13 @@ header nav{
     z-index: 1;
 }
 
+.menu_hambur{
+    border: 0;
+}
+.menu_hambur{
+    color: white;
+    background-color: black;
+}
 
 .menu {
     display: flex;

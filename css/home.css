@@ -131,7 +131,6 @@ section{
     color: black;
     font-weight: 400;
 }
-
 @media (min-width:320px) and (max-width:768px) {
     .seccion_inicio{
         max-width: 100%;
@@ -157,7 +156,34 @@ section{
     .seccion_inicio .cont_marca{
         display: none;
 }
+    .link_slider_maquina_cafe1, .link_slider_maquina_cafe2, .link_slider_maquina_cafe3, .link_slider_maquina_cafe4, .link_slider_maquina_cafe5, .link_slider_maquina_cafe5, .link_slider_maquina_cafe6, .link_slider_maquina_cafe7{
+        width: 20%;
+        height: 90%;
+    }
+    .link_slider_maquina_cafe1{
+        left: 2%;
+    }
+    .link_slider_maquina_cafe2{
+        left: 27%;
+    }
+    .link_slider_maquina_cafe3{
+        left: 54%;
+    }
+    .link_slider_maquina_cafe4{
+        left: 80%;
+    }
+
+    .link_slider_maquina_cafe5{
+        left: 12%;
+    }
+    .link_slider_maquina_cafe6{
+        left: 42%;
+    }
+    .link_slider_maquina_cafe7{
+        left: 72%;
+    }
 }
+
 @media (min-width:769px) and (max-width:1024px) {
     .cont_texto {
         flex-wrap: wrap;
@@ -185,4 +211,5 @@ section{
         grid-template-rows: auto 1fr;
         gap: 2em;
     }
+
 }

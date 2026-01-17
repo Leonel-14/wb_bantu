@@ -70,11 +70,18 @@ if (consulta_ventana()) {
         <div class="swiper-wrapper">
                 <diV class="swiper-slide">
                     <div>
+                        <a class=link_slider_maquina_cafe1 href="./html/maquinas.html"></a>
+                        <a class=link_slider_maquina_cafe2 href="./html/maquinas.html"></a>
+                        <a class=link_slider_maquina_cafe3 href="./html/maquinas.html"></a>
+                        <a class=link_slider_maquina_cafe4 href="./html/maquinas.html"></a>
                         <img src="./img/slider_mobile/sl1A_mobile.png">
                     </div>
                 </div>
                 <diV class="swiper-slide">
                     <div>
+                    <a class=link_slider_maquina_cafe5 href="./html/maquinas.html"></a>
+                    <a class=link_slider_maquina_cafe6 href="./html/maquinas.html"></a>
+                    <a class=link_slider_maquina_cafe7 href="./html/maquinas.html"></a>
                         <img src="./img/slider_mobile/sl1B_mobile.png">
                     </div>
                 </div>
