@@ -52,7 +52,7 @@ if (consulta_ventana()) {
                         </a>
                     
                    
-                        <a href="https://wa.me/+5491132474300" target="_blank">
+                        <a href="https://wa.me/+5491158962830" target="_blank">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                         <a href="https://www.tiktok.com/@cafebantu?_r=1&_t=ZM-931UM0OtB2S" target="_blank">
