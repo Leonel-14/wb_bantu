@@ -11,7 +11,7 @@
     height: auto;
 }
 .tarjeta .card-text{
-    height:max-content;
+    height:5em;
 }
 .tarjeta .btn-primary{
     background-color: #eeb61a;
