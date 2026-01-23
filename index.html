@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/nav_footer.css">
     <link rel="stylesheet" href="./css/whatssap_flotante.css">
+    <link rel="stylesheet" href="./css/modal_tarjertas.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
@@ -44,13 +45,19 @@
                 </div>
                 <a href="./html/servicios.html" class="link_nav">Servicios</a>
                 <a href="#id_contacto" class="link_nav">Contacto</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJnKVpQ_16n_APdSItq_pgIOWE7Kij1z42l8m3riEqnde78g/viewform?usp=header" target="_blank" class="link_nav">Se parte de nosotros</a>
-                <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20comprar%20cafe" id="compra_cafe" class="link_nav">Compra Cafe</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJnKVpQ_16n_APdSItq_pgIOWE7Kij1z42l8m3riEqnde78g/viewform?usp=header"
+                    target="_blank" class="link_nav">Se parte de nosotros</a>
+
+                <!--           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+                <a type="button" id="compra_cafe" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="link_nav">Compra Cafe</a>
             </div>
         </nav>
     </header>
     <section class="seccion_inicio">
-        
+
         <div class="swiper-container mySwiper cont_img_slider_inicio" id="cont_img_slider_inicio" data-aos="zoom-in">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -70,7 +77,53 @@
                 </diV>
             </div>
         </div>
-    
+        <!--   -------------  -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Elija su tipo de cafe</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="seccion_modal">
+                            <div class="card tarjeta">
+                                <img src="./img/tipos_cafe/gourmet.png" class="card-img-top" alt="cafe gourmet">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cafe Gourmet</h5>
+                                    <p class="card-text">
+                                        En grano o molido por 1kg o 1/2 kg
+                                    </p>
+                                    <a href="https://wa.me/1132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20gourmet" class="btn btn-primary">Consultar</a>
+                                </div>
+                            </div>
+
+                            <div class="card tarjeta">
+                                <img src="./img/tipos_cafe/premium.png" class="card-img-top" alt="cafe premium">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cafe Premium</h5>
+                                    <p class="card-text">
+                                        En grano o molido por 1kg o 1/2 kg</p>
+                                    <a href="https://wa.me/1132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20premium" class="btn btn-primary">Consultar</a>
+                                </div>
+                            </div>
+
+                            <div class="card tarjeta">
+                                <img src="./img/tipos_cafe/capsula2t.png" class="card-img-top" alt="cafe capsula">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cafe Capsula</h5>
+                                    <p class="card-text">Caja x 10 Unidades</p>
+                                    <a href="https://wa.me/1132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20en%20capsula" class="btn btn-primary">Consultar</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   --------------- -->
         <div class="cont_texto" data-aos="fade-up" data-aos-delay="400">
             <div class="cont_texto_img_1">
                 <div>
@@ -82,7 +135,8 @@
             <div class="cont_texto_img_2">
                 <div>
                     <p>
-                        Nos especializamos en la venta y el alquiler de máquinas expendedoras de vending (cafe, gaseosas y snack),
+                        Nos especializamos en la venta y el alquiler de máquinas expendedoras de vending (cafe, gaseosas
+                        y snack),
                         brindando diferentes variedades de cafe y modelos de maquinas.
                     </p>
                 </div>
@@ -100,7 +154,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="cont_marca">
             <p>Marcas con la que trabajamos...</p>
             <div class="marcas">
@@ -125,7 +179,7 @@
             </div>
 
         </div>
-        
+
     </section>
     <footer>
         <nav class="cont_nav" id="id_contacto">
@@ -167,16 +221,19 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.240712067003!2d-58.3942540235096!3d-34.62335685853701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2107cb64df%3A0xb612906c608e5b3b!2sCaf%C3%A9%20Bantu%20Oficinas%20Comerciales!5e0!3m2!1ses!2sar!4v1755493132581!5m2!1ses!2sar"
                     width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    
+
             </div>
         </nav>
     </footer>
     <div class="wsp_flotante" id="wsp">
-                        <a href="https://wa.me/+5491158962830" target="_blank"><img src="./img/redes/whatsapp.svg"></a>
-                    </div>
+        <a href="https://wa.me/+5491158962830" target="_blank"><img src="./img/redes/whatsapp.svg"></a>
+    </div>
     <script src="./js/nav_footer_mobile.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script>
         AOS.init();
     </script>

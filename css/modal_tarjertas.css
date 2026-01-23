@@ -1,0 +1,25 @@
+.seccion_modal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 1em;
+}
+.tarjeta{
+    text-align: center;
+    width: 9em;
+    height: auto;
+}
+.tarjeta .card-text{
+    height:max-content;
+}
+.tarjeta .btn-primary{
+    background-color: #eeb61a;
+    border: 1px solid black;
+    color: black;
+}
+.tarjeta .btn-primary:hover{
+    background-color: #ffc72b;
+    color: black;
+    border: 1px solid black;
+}
