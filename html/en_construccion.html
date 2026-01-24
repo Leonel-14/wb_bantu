@@ -9,6 +9,7 @@
      <link rel="stylesheet" href="../css/maquina_snacks.css">
      <link rel="stylesheet" href="../css/en_construccion.css">
      <link rel="stylesheet" href="../css/whatssap_flotante.css">
+     <link rel="stylesheet" href="../css/modal_tarjertas.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
@@ -47,11 +48,59 @@
                 <a href="servicios.html" class="link_nav">Servicios</a>
                 <a href="#id_contacto" class="link_nav">Contacto</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJnKVpQ_16n_APdSItq_pgIOWE7Kij1z42l8m3riEqnde78g/viewform?usp=header" target="_blank" class="link_nav">Se parte de nosotros</a>
-                <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20comprar%20cafe" id="compra_cafe" class="link_nav">Compra Cafe</a>
+                <a type="button" id="compra_cafe" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="link_nav">Compra Cafe</a>
             </div>
         </nav>
     </header>
     <section class="fondo">
+        <!-- Modal  -------------  -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Elija su tipo de cafe</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="seccion_modal">
+                            <div class="card tarjeta">
+                                <img src="../img/tipos_cafe/gourmet.png" class="card-img-top" alt="cafe gourmet">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cafe Gourmet</h5>
+                                    <p class="card-text">
+                                        En grano o molido por 1kg o 1/2 kg
+                                    </p>
+                                    <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20gourmet" class="btn btn-primary">Consultar</a>
+                                </div>
+                            </div>
+
+                            <div class="card tarjeta">
+                                <img src="../img/tipos_cafe/premium.png" class="card-img-top" alt="cafe premium">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cafe Premium</h5>
+                                    <p class="card-text">
+                                        En grano o molido por 1kg o 1/2 kg</p>
+                                    <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20premium" class="btn btn-primary">Consultar</a>
+                                </div>
+                            </div>
+
+                            <div class="card tarjeta">
+                                <img src="../img/tipos_cafe/capsula2t.png" class="card-img-top" alt="cafe capsula">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cafe Capsula</h5>
+                                    <p class="card-text">Caja x 10 Unidades</p>
+                                    <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20en%20capsula" class="btn btn-primary">Consultar</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   --------------- -->
         <img src="../img/fondo_construccion.png">
     </section>
      <footer>
@@ -102,6 +151,9 @@
                         <a href="https://wa.me/+5491158962830" target="_blank"><img src="../img/redes/whatsapp.svg"></a>
                     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="../js/nav_footer_mobile.js"></script>
     <script>
         AOS.init();
