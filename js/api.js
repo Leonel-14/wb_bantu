@@ -49,7 +49,6 @@ function Estructura_Slider(data) {
                         <div class="swiper-slide">
                             <img src=${imagen2}>
                         </div>
-                        
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -89,14 +88,12 @@ function Estructura_Slider(data) {
                 <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
                 <div class="swiper-container mySwiper mySwiperA" id="mySwiper">
                 <div class="swiper-wrapper" id="swiper-wrapper">
-                <div class="swiper-slide"">
-                <img src=${imagen1} alt="img1">
-                </div>
-                <div class="swiper-slide">
-                <img src=${imagen2}>
-                </div>
-        
-                </div>
+                    <div class="swiper-slide"">
+                        <img src=${imagen1} alt="img1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src=${imagen2}>
+                    </div>
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -163,8 +160,6 @@ function Estructura_Slider(data) {
                         </div>
                         <div class="swiper-slide">
                             <img src=${imagen2}>
-                        </div>
-                        
                         </div>
                     </div>
 
