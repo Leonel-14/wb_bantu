@@ -5,13 +5,18 @@
     flex-wrap:wrap;
     gap: 1em;
 }
+
 .tarjeta{
     text-align: center;
     width: 9em;
-    height: auto;
 }
+
 .tarjeta .card-text{
     height:5em;
+    
+}
+.card-title{
+    height: 7em;
 }
 .tarjeta .btn-primary{
     background-color: #eeb61a;
