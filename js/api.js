@@ -33,7 +33,6 @@ function Estructura_Slider(data) {
         Mostrar_Bebida(element)
         imagen1 = Object.values(element.img)[0]
         imagen2 = Object.values(element.img)[1]
-        imagen3 = Object.values(element.img)[2]
 
 
         if (estado_mobile.matches) {
@@ -50,9 +49,7 @@ function Estructura_Slider(data) {
                         <div class="swiper-slide">
                             <img src=${imagen2}>
                         </div>
-                        <div class="swiper-slide">
-                            <img src=${imagen1}>
-                        </div>
+                        
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -98,8 +95,7 @@ function Estructura_Slider(data) {
                 <div class="swiper-slide">
                 <img src=${imagen2}>
                 </div>
-                <div class="swiper-slide">
-                <img src=${imagen1}>
+        
                 </div>
                 </div>
                 <div class="swiper-button-prev"></div>
@@ -168,8 +164,7 @@ function Estructura_Slider(data) {
                         <div class="swiper-slide">
                             <img src=${imagen2}>
                         </div>
-                        <div class="swiper-slide">
-                            <img src=${imagen1}>
+                        
                         </div>
                     </div>
 
