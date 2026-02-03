@@ -9,15 +9,17 @@ fetch(api_url)
     })
     .then(data => {
         // Llama a una función para mostrar los datos
-        Mostrar("hola\n", data);
-
+        if (document.getElementById("cont_maquina_snack")) {
+            
+            Estructura_Snack(data);
+            
+            
+        }
         if (document.getElementById("cont_maquina_cafe")) {
             Estructura_Slider(data);
-
+            
         }
-        if (document.getElementById("cont_maquina_snacks")) {
-            Estructura_Snacks(data);
-        }
+        //Mostrar(data)
     })
     .catch(error => {
         console.error('Fijate Hubo un error al obtener los datos:', error);
@@ -174,7 +176,7 @@ function Estructura_Slider(data) {
         }
 
         var swiper = new Swiper(`.mySwiper`, {
-             loop: true,
+            loop: true,
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -189,7 +191,38 @@ function Estructura_Slider(data) {
 
 function Mostrar(data) {
 
-    console.log("hola")
+    console.log("Estrucuta snacks")
+    maquina_snack = Object.values(data.maquinas_snacks);
+    maquina_snack.forEach(element => {
+        //imagenes de producto
+            nombre_producto = Object.keys(element.productos)
+            producto = element.productos.bebidas
+            console.log(nombre_producto[0])
+            link_img_producto = Object.values(producto)
+            link_img_producto.forEach(element =>{
+                console.log(element)
+            })
+            console.log("-------------")
+        
+
+    })
+    /*
+    //Imagen de maquina
+    maquina_snack.forEach(element => {
+        console.log(Object.values(element.img))
+    })
+    maquina_snack.forEach(element => {
+        console.log(element.dimension)
+        console.log(element.marca)
+        console.log(element.modelo)
+        console.log(element.peso)
+        categoria_producto = Object.keys(element.productos)
+        categoria_producto.forEach(element => {
+            console.log(element.toUpperCase())
+        });
+    })
+
+
     /*maquina_cafe = Object.values(data.maquinas_cafe);
     maquina_cafe.forEach(element => {
          imagen = Object.values(element.img)[0]
@@ -206,223 +239,105 @@ function Mostrar(data) {
     })*/
 
 }
-function Estructura_Snacks(data) {
-    let i = 0;
+
+
+function Estructura_Snack(data) {
     maquina_snack = Object.values(data.maquinas_snacks);
     maquina_snack.forEach(element => {
-        imagen1 = Object.values(element.img)[0]
-        imagen2 = Object.values(element.img)[1]
-        imagen3 = Object.values(element.img)[2]
-
-        if (i % 2 == 0) {
-
-            document.getElementById("cont_maquina_snacks").innerHTML +=
-                `
-        <div class="cont_slider_especificaciones">
-            <div class="slider" id="slider"> 
-                <h2 class="nombre_maquina">${element.modelo}</h2>
-            <div class="swiper-container mySwiper" id="mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src=${imagen1}>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src=${imagen2}>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src=${imagen1}>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-            <div class="cont_snacks_especificaciones">
-                <div class="cont_snacks">
-                        <div class="cont_snack" id="cont_snack">
-                            <div class="snack_bebida cont_img_snack">
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/snacks/bebidas/sprite.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/snacks/bebidas/fant.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                            </div>
-                            <div class="snack_saludable cont_img_snack"> 
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                            </div>
-                            <div class="snack_salado cont_img_snack"> 
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                            </div>
-                            <div class="snack_alf cont_img_snack">
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                            </div>
-                            <div class="snack_galletas cont_img_snack"> 
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                            </div>
-                            <div class="snack_chocolate cont_img_snack"> 
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                            </div>
-                            <div class="snack_varios cont_img_snack"> 
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                                <div class="contenedor_img_snack"> 
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                                </div>
-                            </div>
-                                
-                        </div>
-                </div>
-                <div class="cont_especificaciones">
-                    <p>Peso: 125kg</p>
-                    <p>Dimensiones: 67 x 58 x 183 cm</p>
-                    <p>Marca: Saeco</p>
-                    <p>Tension: 230V</p>
-                    <p>Potencia Maxima: 1450W</p>
-                    <p>Cantidad de bebidas: 16</p>
-                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
-                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
-
-                </div>
-            </div>
-        </div>
+    imagen = Object.values(element.img)
+  /*
+    if (estado_mobile.matches) {
+            document.getElementById("cont_maquina_snack").innerHTML +=
+    `
+        <h1>ESTOY EN MOBILE</h1>`
+    }
+    else{*/
+        document.getElementById("cont_maquina_snack").innerHTML += 
         `
-        }
-        else {
-            document.getElementById("cont_maquina_snacks").innerHTML +=
-                `
-            <div class="cont_slider_especificaciones">
-                <div class="cont_snacks_especificaciones">
-                <div class="cont_snacks">
-                        <div class="cont_snack" id="cont_snack">
-                                <img src=../img/maq_snacks/img_producto/coca.png alt="img1">
-                        </div>
-                    
+    <div class="maquina_especificaciones_snack">
+                <h2 class="nombre_maquina_snack">${element.modelo}</h2>
+                <div class="cont_img_snack">
+                    <img src=${imagen} alt="imagen">
                 </div>
-                <div class="cont_especificaciones">
-                    <p>Peso: 125kg</p>
-                    <p>Dimensiones: 67 x 58 x 183 cm</p>
-                    <p>Marca: Saeco</p>
-                    <p>Tension: 230V</p>
-                    <p>Potencia Maxima: 1450W</p>
-                    <p>Cantidad de bebidas: 16</p>
-                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
-                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
-
+                <div class="especificaciones">
+                    <p>Dimension: ${element.dimension}</p>
+                    <p>Peso: ${element.peso}</p>
+                    <p>Cantidad de selecciones: ${element.cantidad_selecciones}</p>
                 </div>
             </div>
-
-            <div class="slider" id="slider"> 
-                <h2 class="nombre_maquina">${element.modelo}</h2>
-            <div class="swiper-container mySwiper" id="mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src=${imagen1} alt="img1">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src=${imagen2}>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src=${imagen1}>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
+            <div class="selecciones_snack" id="selecciones_snack">
+                    ${Generar_Snack(element)}
             </div>
-        </div>
-        </div>
-            `
-        }
-        i++;
-
-        var swiper = new Swiper(".mySwiper", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-            },
-        });
-
-    });
-
+    `
+    })
 }
+function Generar_Snack(dato){
+    //(console.log(dato.productos)
+    let snacks = ""
+    
+    productos = dato.productos
+    categoria_producto = Object.keys(productos)
+    for(let i = 0; i< categoria_producto.length; i++)
+     {
+        let img = ""
+                console.log("vuelta -> ",i)
+                tipo_producto = Object.values(productos)[i]
+                link_img_producto = Object.values(tipo_producto)
+                link_img_producto.forEach(x => {
+                    
+                    img += `
 
-
+                    <div class="swiper-slide"><img src="${x}" style="width:30px"></div>`
+                })
+                
+                snacks += 
+                `
+                    <div class="cont_slider_seleccion">
+                            <h3>${categoria_producto[i]}</h3>
+                            <div class="swiper-container mySwiper">
+                                    <div class="swiper-wrapper" id="swiper-wrapper">
+                                        ${img}
+                                    </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                    </div>
+                `
+    }
+    return snacks
+    /*
+    producto = dato.productos.bebidas
+        console.log(Object.values(producto))
+    `
+    <div class="cont_slider_seleccion">
+                    <h3>Bebidas</h3>
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper" id="swiper-wrapper">`+`
+                            ${Generar_Producto(dato)}
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+    `*/
+}
+/*
+function Generar_Producto(productos){
+    let img = ""
+    lista_productos = Object.values(productos)
+    lista_productos.forEach(element => {
+        links_img_productos = Object.values(element)
+        console.log("vuelta")
+        links_img_productos.forEach(x => {
+            
+        img += 
+        `
+        <div class="swiper-slide"><img src="${x}" style="width:30px"></div>
+        `
+    })
+})
+    return img
+}*/
 function Mostrar_Bebida(dato) {
 
     let algo = Object.entries(dato.bebida)
@@ -432,9 +347,9 @@ function Mostrar_Bebida(dato) {
     }
     );
 }
-function Generar_Bebida(dato) {
+function Generar_Bebida(data) {
     let bebidas = ""
-    cafe = Object.entries(dato.bebida)
+    cafe = Object.entries(data.bebida)
 
     cafe.forEach(element => {
         bebidas +=
@@ -449,9 +364,8 @@ function Generar_Bebida(dato) {
 
     return bebidas;
 }
-function Estructura_Slider_Cafe_Mobile(dato) {
 
-}
+
 /*
 var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",

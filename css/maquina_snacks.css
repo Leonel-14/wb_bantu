@@ -1,7 +1,3 @@
-@font-face {
-    font-family: bubble;
-    src: url(../fonts/Bubble\ Sans\ Regular\ 1.001.otf);
-}
 
 .seccion_maquina{
     max-width: 100%;
@@ -29,78 +25,86 @@
     color: black;
 }
 
-.cont_maquina_snacks{
+.cont_maquina_snack{
+    color: black;
     display: grid;
     max-width: 100%;
-    min-height: 100vh;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
 }
-.cont_slider_especificaciones{
+.maquina_especificaciones_snack{
     width: 100%;
-    max-height: 100vh;
+    height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 2em;
+    grid-template-rows: auto auto;
     justify-items: center;
-   
 }
-.slider{
-    width: 40em;
-    height: 40em;
+.selecciones_snack{
+    width: 100%;
+    height: 100%;
+    
     overflow: hidden;
 }
-.swiper-wrapper{
-    width:  100%;
-    height: 100%;
-    display: flex;
-    
+.cont_img_snack{
+    width: auto;
+    height: 40em;
 }
-.swiper-slide{
-    min-width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.swiper-wrapper .swiper-slide img{
-    width: 65%;
-}
-.cont_snacks_especificaciones{
-    display: grid;
+.cont_img_snack img{
     width: 100%;
     height: 100%;
-    grid-template-rows: 1fr 1fr;
+}
+.especificaciones{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1em;
+}
+.especificaciones p{
+    font-size: 1.4em;
+}
+
+.selecciones_snack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 2em;
 }
 
-
-.nombre_cafe{
+.nombre_maquina_snack{
+    font-size: 3em;
+}
+/*Slider--------------*/
+.cont_slider_seleccion{
+    height: min-content;
+    width: 20em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cont_slider_seleccion h3{
+    width: 100%;
     text-align: center;
 }
-.cont_especificaciones{
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    gap: 2em;
-}
-.cont_especificaciones p{
-    font-size: 1.7em;
-    color: black;
+.swiper-container{
+    width: 13em;
+    overflow: hidden;
 }
 
-
-
-#mySwiper{
+.swiper-slide img{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
+.swiper-button-prev, .swiper-button-next{
+    align-self: anchor-center;
+}
+.swiper-button-prev svg, .swiper-button-next svg{
+    color: white;
+}
+/*-------------*/
 
 
