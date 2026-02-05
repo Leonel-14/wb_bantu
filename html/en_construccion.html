@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/nav_footer.css">
     <link rel="stylesheet" href="../css/home.css">
-     <link rel="stylesheet" href="../css/maquina_snacks.css">
-     <link rel="stylesheet" href="../css/en_construccion.css">
-     <link rel="stylesheet" href="../css/whatssap_flotante.css">
+    <link rel="stylesheet" href="../css/maquina_snacks.css">
+    <link rel="stylesheet" href="../css/en_construccion.css">
+    <link rel="stylesheet" href="../css/whatssap_flotante.css">
+    <link rel="stylesheet" href="../css/modal_club.css">
      <link rel="stylesheet" href="../css/modal_tarjertas.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -31,30 +32,32 @@
             <div class="logo"><img src="../img/logo-removebg-preview.png"></div>
             <button id="menu_hambur" class="menu_hambur"><i class="fa-solid fa-bars"></i></button>
             <div class="cont_links_nav" id="cont_links_nav">
-                <a href="/index.html" class="link_nav">Inicio</a>
+                <a href="../index.html" class="link_nav">Inicio</a>
                 <div class="menu">
                     <a class="link_nav maquinas">Maquinas</a>
                     <!--inicio submenu-->
                     <div class="submenu">
                         <div class="cont_sub_links">
-                            <a class="sub_link_maquinas" href="maquinas.html">Cafe</a>
-                            <a class="sub_link_maquinas" href="en_construccion.html">Snacks</a>
+                            <a class="sub_link_maquinas" href="../html/maquinas.html">Cafe</a>
+                            <a class="sub_link_maquinas" href="../html/maquinas_snack.html">Snacks</a>
                             <!--/html/maquinas_snack.html-->
-                            <a class="sub_link_maquinas" href="en_construccion.html">Mini Vending</a>
+                            <a class="sub_link_maquinas" href="../html/en_construccion.html">Mini Vending</a>
                         </div>
                     </div>
                     <!--fin de submenu-->
                 </div>
-                <a href="servicios.html" class="link_nav">Servicios</a>
+                <a href="./html/servicios.html" class="link_nav">Servicios</a>
                 <a href="#id_contacto" class="link_nav">Contacto</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJnKVpQ_16n_APdSItq_pgIOWE7Kij1z42l8m3riEqnde78g/viewform?usp=header" target="_blank" class="link_nav">Se parte de nosotros</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJnKVpQ_16n_APdSItq_pgIOWE7Kij1z42l8m3riEqnde78g/viewform?usp=header"
+                    target="_blank" class="link_nav">Se parte de nosotros</a>
                 <a type="button" id="compra_cafe" data-bs-toggle="modal" data-bs-target="#exampleModal"
                     class="link_nav">Compra Cafe</a>
+                <a type="button" id="club_bantu" data-bs-toggle="modal" data-bs-target="#modal_club_bantu" class="link_nav">Club Bantu <i class="fa-solid fa-crown"></i></a>
             </div>
         </nav>
     </header>
     <section class="fondo">
-        <!-- Modal  -------------  -->
+        <!-- Modal Compra Cafe -------------  -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-centered">
@@ -72,7 +75,7 @@
                                     <p class="card-text">
                                         En grano o molido por 1kg o 1/2 kg
                                     </p>
-                                    <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20gourmet" target="_blank"  class="btn btn-primary">Consultar</a>
+                                    <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20gourmet" target="_blank" class="btn btn-primary">Consultar</a>
                                 </div>
                             </div>
 
@@ -91,10 +94,41 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Cafe Capsula</h5>
                                     <p class="card-text">Caja x 10 Unidades</p>
-                                    <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20en%20capsula" target="_blank"  class="btn btn-primary">Consultar</a>
+                                    <a href="https://wa.me/5491132474300?text=Hola,%20quiero%20saber%20el%20precio%20del%20cafe%20en%20capsula" target="_blank" class="btn btn-primary">Consultar</a>
                                 </div>
                             </div>
                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   --------------- -->
+
+          <!-- Modal Club Bantu -------------  -->
+        <div class="modal fade" id="modal_club_bantu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-club">
+                    <div class="modal-header">
+                        <div class="cont-header-modal">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Membresia Bantu</h1>
+                            <div class="cont_img">
+                                <img src="../img/modal/crown-svgrepo-com.svg">
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cont-info-modal">
+                            <h4 class="titulo-club-bantu"><p>Club</p> Bantu</h4>
+                            <p>Proximamente hacerte socio del club Bantu y obtene...
+                                </p>
+                                <div class="cont-body-botones">
+                                    <div class="boton-club"><img src="../img/modal/grano.svg"><p>Múltiples beneficios exclusivos</p></div>
+                                    <div class="boton-club"><img src="../img/modal/grano.svg"><p>Accesos únicos para socios.</p></div>
+                                    <div class="boton-club"><img src="../img/modal/grano.svg"><p>Se miembro fundador</p></div>
+                                </div>
+                        </div>
                         </div>
                     </div>
                 </div>

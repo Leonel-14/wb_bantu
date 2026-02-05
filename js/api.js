@@ -248,17 +248,11 @@ function Mostrar(data) {
 
 function Estructura_Snack(data) {
     maquina_snack = Object.values(data.maquinas_snacks);
+
     maquina_snack.forEach(element => {
         imagen = Object.values(element.img)
         const contenedor = document.getElementById("cont_maquina_snack");
 
-        /*
-          if (estado_mobile.matches) {
-                  document.getElementById("cont_maquina_snack").innerHTML +=
-          `
-              <h1>ESTOY EN MOBILE</h1>`
-          }
-          else{*/
         contenedor.innerHTML +=
             `
     <div class="maquina_especificaciones_snack">
@@ -276,6 +270,7 @@ function Estructura_Snack(data) {
                     ${Generar_Snack(element)}
             </div>
     `
+        
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
