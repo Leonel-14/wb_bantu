@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/nav_footer.css">
     <link rel="stylesheet" href="./css/whatssap_flotante.css">
     <link rel="stylesheet" href="./css/modal_tarjertas.css">
+    <link rel="stylesheet" href="./css/modal_club.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
@@ -49,7 +50,7 @@
                     target="_blank" class="link_nav">Se parte de nosotros</a>
                 <a type="button" id="compra_cafe" data-bs-toggle="modal" data-bs-target="#exampleModal"
                     class="link_nav">Compra Cafe</a>
-                <a href="#" class="link_nav" style="color: #eeb61a;">Club Bantu <i class="fa-solid fa-crown"></i></a>
+                <a type="button" id="club_bantu" data-bs-toggle="modal" data-bs-target="#modal_club_bantu" class="link_nav">Club Bantu <i class="fa-solid fa-crown"></i></a>
             </div>
         </nav>
     </header>
@@ -74,7 +75,7 @@
                 </diV>
             </div>
         </div>
-        <!-- Modal  -------------  -->
+        <!-- Modal Compra Cafe -------------  -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-centered">
@@ -121,6 +122,38 @@
             </div>
         </div>
         <!--   --------------- -->
+
+          <!-- Modal Club Bantu -------------  -->
+        <div class="modal fade" id="modal_club_bantu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-club">
+                    <div class="modal-header">
+                        <div class="cont-header-modal">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Membresia Bantu</h1>
+                            <div class="cont_img">
+                                <img src="./img/modal/crown-svgrepo-com.svg">
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cont-info-modal">
+                            <h4 class="titulo-club-bantu"><p>Club</p> Bantu</h4>
+                            <p>Proximamente hacerte socio del club Bantu y obtene...
+                                </p>
+                                <div class="cont-body-botones">
+                                    <div class="boton-club"><img src="./img/modal/grano.svg">Múltiples beneficios exclusivos </div>
+                                    <div class="boton-club"><img src="./img/modal/grano.svg">Accesos únicos para socios. </div>
+                                    <div class="boton-club"><img src="./img/modal/grano.svg">Se miembro fundador</div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   --------------- -->
+
         <div class="cont_texto" data-aos="fade-up" data-aos-delay="400">
             <div class="cont_texto_img_1">
                 <div>

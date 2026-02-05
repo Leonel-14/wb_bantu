@@ -1,5 +1,6 @@
-const api_url = "https://leonel-14.github.io/API_PRUEBA/Api.json";
-//const cargador = `<div id="cargador" class="loader"></div>`
+//const api_url = "https://leonel-14.github.io/API_PRUEBA/Api.json";
+const api_url = "../db.json";
+
 const div_bebida = document.getElementById('cont_img_bebida');
 const estado_mobile = window.matchMedia("(max-width:768px)");
 fetch(api_url)
@@ -287,7 +288,7 @@ function Generar_Snack(dato){
                     
                     img += `
 
-                    <div class="swiper-slide"><img src="${x}" style="width:30px"></div>`
+                    <div class="swiper-slide"><img src="${x}" ></div>`
                 })
                 
                 snacks += 

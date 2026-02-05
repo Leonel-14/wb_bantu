@@ -1,0 +1,72 @@
+#modal_club_bantu .modal-club{
+    width: auto;
+    background-color: rgb(60, 60, 60);
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px 3px #eeb61a;
+    color: white;
+    
+}
+#modal_club_bantu .modal-dialog-centered{
+    max-width: max-content;
+}
+#modal_club_bantu .modal-header{
+    background-color: rgb(80, 80, 80);
+}
+.cont-header-modal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1em;
+}
+.cont-header-modal .cont_img{
+    width: 2em;
+}
+.cont-header-modal .cont_img img{
+ width: 100%;
+}
+.titulo-club-bantu{
+    font-size: 3em;
+}
+.cont-info-modal{
+    text-align: center;
+}
+#modal_club_bantu .cont-body-botones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.boton-club{
+  width: 15em;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #42220A;
+  border-radius: 30px;
+ 
+  position: relative;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0.5em;
+
+}
+.boton-club img {
+  height: 25px;
+}
+.titulo-club-bantu p{
+    display: inline;
+    color: #eeb61a;
+}
+@media (min-width:320px) and (max-width:768px){
+    #modal_club_bantu .cont-body-botones{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boton-club{
+    height: 4em;
+}
+}

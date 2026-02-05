@@ -95,7 +95,12 @@ body header{
 .menu_hambur{
     display: none;
 }
-
+#club_bantu{
+    color: #eeb61a;
+}
+#club_bantu:hover{
+    background-color: #42220A;
+}
 
 
 
