@@ -4,6 +4,7 @@
     background-color: #42220A;
     height: min-content;
     overflow: hidden;
+    justify-items: center;
 }
 .titulo_maquina{
     width: 100%;
@@ -29,6 +30,7 @@
     color: black;
     display: grid;
     max-width: 100%;
+    min-height: 100vh;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
@@ -106,5 +108,3 @@
     color: white;
 }
 /*-------------*/
-
-

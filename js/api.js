@@ -1,4 +1,3 @@
-//const api_url = "https://leonel-14.github.io/API_PRUEBA/Api.json";
 const api_url = "../db.json";
 
 const div_bebida = document.getElementById('cont_img_bebida');
@@ -10,17 +9,22 @@ fetch(api_url)
     })
     .then(data => {
         // Llama a una función para mostrar los datos
-        if (document.getElementById("cont_maquina_snack")) {
-            
-            Estructura_Snack(data);
-            
-            
-        }
-        if (document.getElementById("cont_maquina_cafe")) {
-            Estructura_Slider(data);
-            
-        }
-        //Mostrar(data)
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+
+            setTimeout(() => {
+               
+                if (document.getElementById("cont_maquina_snack")) {
+                    Estructura_Snack(data);
+                }
+                if (document.getElementById("cont_maquina_cafe")) {
+                    Estructura_Slider(data);
+                }
+                
+                 loader.style.display = 'none'; // Ocultar loader
+            }, 1000);
+            //Mostrar(data)
+        })
     })
     .catch(error => {
         console.error('Fijate Hubo un error al obtener los datos:', error);
@@ -33,7 +37,7 @@ function Estructura_Slider(data) {
     maquina_cafe = Object.values(data.maquinas_cafe);
     maquina_cafe.forEach(element => {
 
-        Mostrar_Bebida(element)
+     
         imagen1 = Object.values(element.img)[0]
         imagen2 = Object.values(element.img)[1]
 
@@ -196,15 +200,15 @@ function Mostrar(data) {
     maquina_snack = Object.values(data.maquinas_snacks);
     maquina_snack.forEach(element => {
         //imagenes de producto
-            nombre_producto = Object.keys(element.productos)
-            producto = element.productos.bebidas
-            console.log(nombre_producto[0])
-            link_img_producto = Object.values(producto)
-            link_img_producto.forEach(element =>{
-                console.log(element)
-            })
-            console.log("-------------")
-        
+        nombre_producto = Object.keys(element.productos)
+        producto = element.productos.bebidas
+        console.log(nombre_producto[0])
+        link_img_producto = Object.values(producto)
+        link_img_producto.forEach(element => {
+            console.log(element)
+        })
+        console.log("-------------")
+
 
     })
     /*
@@ -245,16 +249,18 @@ function Mostrar(data) {
 function Estructura_Snack(data) {
     maquina_snack = Object.values(data.maquinas_snacks);
     maquina_snack.forEach(element => {
-    imagen = Object.values(element.img)
-  /*
-    if (estado_mobile.matches) {
-            document.getElementById("cont_maquina_snack").innerHTML +=
-    `
-        <h1>ESTOY EN MOBILE</h1>`
-    }
-    else{*/
-        document.getElementById("cont_maquina_snack").innerHTML += 
-        `
+        imagen = Object.values(element.img)
+        const contenedor = document.getElementById("cont_maquina_snack");
+
+        /*
+          if (estado_mobile.matches) {
+                  document.getElementById("cont_maquina_snack").innerHTML +=
+          `
+              <h1>ESTOY EN MOBILE</h1>`
+          }
+          else{*/
+        contenedor.innerHTML +=
+            `
     <div class="maquina_especificaciones_snack">
                 <h2 class="nombre_maquina_snack">${element.modelo}</h2>
                 <div class="cont_img_snack">
@@ -266,33 +272,46 @@ function Estructura_Snack(data) {
                     <p>Cantidad de selecciones: ${element.cantidad_selecciones}</p>
                 </div>
             </div>
-            <div class="selecciones_snack" id="selecciones_snack">
+            <div class="selecciones_snack">
                     ${Generar_Snack(element)}
             </div>
     `
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     })
 }
-function Generar_Snack(dato){
+function Generar_Snack(dato) {
     //(console.log(dato.productos)
     let snacks = ""
-    
+
     productos = dato.productos
     categoria_producto = Object.keys(productos)
-    for(let i = 0; i< categoria_producto.length; i++)
-     {
+    for (let i = 0; i < categoria_producto.length; i++) {
         let img = ""
-                console.log("vuelta -> ",i)
-                tipo_producto = Object.values(productos)[i]
-                link_img_producto = Object.values(tipo_producto)
-                link_img_producto.forEach(x => {
-                    
-                    img += `
+        tipo_producto = Object.values(productos)[i]
+        link_img_producto = Object.values(tipo_producto)
+        link_img_producto.forEach(x => {
+
+            img += `
 
                     <div class="swiper-slide"><img src="${x}" ></div>`
-                })
-                
-                snacks += 
-                `
+        })
+
+        snacks +=
+            `
                     <div class="cont_slider_seleccion">
                             <h3>${categoria_producto[i]}</h3>
                             <div class="swiper-container mySwiper">
@@ -305,53 +324,13 @@ function Generar_Snack(dato){
                     </div>
                 `
     }
-    return snacks
-    /*
-    producto = dato.productos.bebidas
-        console.log(Object.values(producto))
-    `
-    <div class="cont_slider_seleccion">
-                    <h3>Bebidas</h3>
-                    <div class="swiper-container mySwiper">
-                        <div class="swiper-wrapper" id="swiper-wrapper">`+`
-                            ${Generar_Producto(dato)}
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-    `*/
-}
-/*
-function Generar_Producto(productos){
-    let img = ""
-    lista_productos = Object.values(productos)
-    lista_productos.forEach(element => {
-        links_img_productos = Object.values(element)
-        console.log("vuelta")
-        links_img_productos.forEach(x => {
-            
-        img += 
-        `
-        <div class="swiper-slide"><img src="${x}" style="width:30px"></div>
-        `
-    })
-})
-    return img
-}*/
-function Mostrar_Bebida(dato) {
 
-    let algo = Object.entries(dato.bebida)
-    let algo2 = Object.keys(dato.bebida)
-    algo.forEach(element => {
-        // console.log("Nombre -->", element[0])
-    }
-    );
+    return snacks
+
 }
 function Generar_Bebida(data) {
     let bebidas = ""
     cafe = Object.entries(data.bebida)
-
     cafe.forEach(element => {
         bebidas +=
             `
@@ -361,28 +340,7 @@ function Generar_Bebida(data) {
          </div>
         `
     })
-
-
     return bebidas;
 }
 
 
-/*
-var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-
-*/

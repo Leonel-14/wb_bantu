@@ -658,7 +658,7 @@
          "dimension": "119x182x86 cm",
          "peso": "325kg",
          "img": {
-            "img1": "img"
+            "img1": "/img/maq_snacks/melodia/frente_aliseo.png"
          },
          "productos": {
            "bebidas":{
@@ -881,7 +881,7 @@
          "dimension": "72x170x82 cm",
          "peso": "200kg",
          "img": {
-            "img1": "/img/maq_snacks/melodia/frente_melodia.png"
+            "img1": "/img/maq_snacks/melodia/frente_aliseo.png"
          },
          "productos": {
             "bebidas":{

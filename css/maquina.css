@@ -8,6 +8,7 @@
     background-color: #42220A;
     height: min-content;
     overflow: hidden;
+    justify-items: center;
 }
 
 
