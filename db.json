@@ -7,25 +7,25 @@
          "peso": "120kg",
          "potencia": "1450W",
          "img": {
-            "img1": "https://www.dropbox.com/scl/fi/mzhtwi4qzsnoito1j371k/frente.png?rlkey=tsbmphhey72i980dq0korsx3c&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/7xpeb2v1u3a6uz8oqlemj/abierta.png?rlkey=pu5pe6ue0p573hia2k2zme1zl&st=qxthrg52&raw=1"
+            "img1": "/img/maq_cafe/evo/frente.png",
+            "img2": "/img/maq_cafe/evo/abierta.png"
          },
          "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Cafe con Chocolate": "https://www.dropbox.com/scl/fi/6o46d2nos1olh9kf9k79r/cafe_con_choco.png?rlkey=cmq8yzphrilzcqmgqxr58k016&st=rmnk8ivn&raw=1",
-            "Leche con Cafe": "https://www.dropbox.com/scl/fi/8zkuaos1knyxyt0xclp9b/leche_con_cafe.png?rlkey=nm8m57s9in3g2uok0n70ljgwx&st=iaxeu435&raw=1",
-            "Leche con Chocolate": "https://www.dropbox.com/scl/fi/f6a4x0qdim0evnbyggl2f/leche_con_chocolate.png?rlkey=5x4v2ij4ukqlmp0z2xrnpz5rc&st=pux7ql8c&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Chocolate Fuerte": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Cappuchino Vainiila": "https://www.dropbox.com/scl/fi/eeb0zz3gf8qf9qngqgfam/vainilla.png?rlkey=mzbgiwpiy9spwwv04spy10k3e&st=xw9so8f0&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
+            "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+            "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+            "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+            "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+            "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+            "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+            "Cafe con Chocolate": "/img/maq_cafe/Bebidas/cafe_con_choco.png",
+            "Leche con Cafe": "/img/maq_cafe/Bebidas/leche_con_cafe.png",
+            "Leche con Chocolate": "/img/maq_cafe/Bebidas/leche_con_chocolate.png",
+            "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+            "Leche": "/img/maq_cafe/Bebidas/leche.png",
+            "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+            "Chocolate Fuerte": "/img/maq_cafe/Bebidas/chocolate.png",
+            "Cappuchino Vainilla": "/img/maq_cafe/Bebidas/vainilla.png",
+            "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
          },
          "cantidad_bebidas": "17",
          "servicio": {
@@ -33,239 +33,249 @@
             "srv2": "servicio tecnico"
          }
       },
-      "maqc2": {
-         "marca": "Necta",
-         "modelo": "Opera",
-         "dimension": "60x183x76 cm",
-         "peso": "135kg",
-         "potencia": "2850W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/pvkp5vxtq2o5jeeqtqv92/frente_opera.png?rlkey=dgzc4w9rdp0r9x218p89uldpp&st=e7a8hqfi&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/vnk0rj62cwl1oo070vv8l/abierta.png?rlkey=swt4p9da54stu3l0l2u1jbasy&st=mr6spb7w&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate Fuerte": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Vainiila Con Leche": "https://www.dropbox.com/scl/fi/a2c6c53rox7bj6tcuxx2b/vainilla-con-leche.png?rlkey=lqgkgnb6ps7dn2014ajmglifb&st=6ilglewp&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
-         },
-         "cantidad_bebidas": "16",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqc3": {
-         "marca": "Saeco",
-         "modelo": "Cristallo Boton 400/600",
-         "dimension": "58x183x56 cm",
-         "peso": "105kg",
-         "potencia": "1250W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/kneac0q1n5cnqgrqwcc6k/frente_boton.png?rlkey=46crirwsj6xdatnrlzdocp5dn&st=cbaxnupn&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/438g0nmgo12ihaw0mjvjq/abierta.png?rlkey=e2g5m9t3pg1mc9kzidm3kqo7o&st=i4ghi29k&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Cafe con Chocolate": "https://www.dropbox.com/scl/fi/6o46d2nos1olh9kf9k79r/cafe_con_choco.png?rlkey=cmq8yzphrilzcqmgqxr58k016&st=rmnk8ivn&raw=1",
-            "Leche con Chocolate": "https://www.dropbox.com/scl/fi/f6a4x0qdim0evnbyggl2f/leche_con_chocolate.png?rlkey=5x4v2ij4ukqlmp0z2xrnpz5rc&st=pux7ql8c&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Chocolate Fuerte": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
-         },
-         "cantidad_bebidas": "15",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqc4": {
-         "marca": "Saeco",
-         "modelo": "10P",
-         "dimension": "62x183x64 cm",
-         "peso": "114kg",
-         "potencia": "1250W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/0x71e8ut76x5wd8ok802u/frente_10p.png?rlkey=pihwvtg25vdfpt7lxqrqbpzpd&st=u2qaekvu&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/m4w7iw2mszmk8oyek7z8v/abierta.jpg?rlkey=uzkmr47obfxrtdhixkx6r0vta&st=3qm27d09&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Cafe con Chocolate": "https://www.dropbox.com/scl/fi/6o46d2nos1olh9kf9k79r/cafe_con_choco.png?rlkey=cmq8yzphrilzcqmgqxr58k016&st=rmnk8ivn&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1"
-         },
-         "cantidad_bebidas": "10",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqc5": {
-         "marca": "Saeco",
-         "modelo": "Atlante",
-         "dimension": "75x183x87 cm",
-         "peso": "192kg",
-         "potencia": "2300W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/ys1sggnh480rlrrw7qrgg/frente_atlante.png?rlkey=93jmop99m6rue0qh1t0nviusx&st=us368qdi&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/dw7j7xjbua350and0kmeu/at_abierta.png?rlkey=eyrw96xy7a5ew54z141675pka&st=xkdafmp4&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Cafe con Chocolate": "https://www.dropbox.com/scl/fi/6o46d2nos1olh9kf9k79r/cafe_con_choco.png?rlkey=cmq8yzphrilzcqmgqxr58k016&st=rmnk8ivn&raw=1",
-            "Leche con Cafe": "https://www.dropbox.com/scl/fi/8zkuaos1knyxyt0xclp9b/leche_con_cafe.png?rlkey=nm8m57s9in3g2uok0n70ljgwx&st=iaxeu435&raw=1",
-            "Leche con Chocolate": "https://www.dropbox.com/scl/fi/f6a4x0qdim0evnbyggl2f/leche_con_chocolate.png?rlkey=5x4v2ij4ukqlmp0z2xrnpz5rc&st=pux7ql8c&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Vainiila con Chocolate": "https://www.dropbox.com/scl/fi/rdfccscvc6f23lpmar9eb/vainilla-con-chocolate.png?rlkey=xv73sjycjakxnv046p0139y6i&st=vjlp7ubv&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
-         },
-         "cantidad_bebidas": "20",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqc6": {
-         "marca": "Saeco",
-         "modelo": "Rubino",
-         "dimension": "41x76x53 cm",
-         "peso": "40kg",
-         "potencia": "1250W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/e882f4t7046plyjgofj9u/frente_rubino.png?rlkey=m958421tzfyl5ckrjggwoxbje&st=70ak9ovy&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/wj8go5sqhlx10vnomw2sa/abierto.png?rlkey=g2uarcha5nr4abdcprdcapa2e&st=a6np1b1a&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
-         },
-         "cantidad_bebidas": "8",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqc7": {
-         "marca": "Necta",
-         "modelo": "Kikko",
-         "dimension": "54x170x69 cm",
-         "peso": "115kg",
-         "potencia": "1850W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/9hpfd8vtuabzdfxo2gzcb/frente_kikko.png?rlkey=vtwq2bmdwuogq0svqj3lu5kok&st=vjknqyci&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/gn3qcqxhak2fzpyg2xdp3/abierta.png?rlkey=d7lq403yy77cdtx3ynv24pif5&st=8vnsniun&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Cafe con Chocolate": "https://www.dropbox.com/scl/fi/6o46d2nos1olh9kf9k79r/cafe_con_choco.png?rlkey=cmq8yzphrilzcqmgqxr58k016&st=rmnk8ivn&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Chocolate Fuerte": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
-         },
-         "cantidad_bebidas": "15",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqc8": {
-         "marca": "Necta",
-         "modelo": "Kikko Max",
-         "dimension": "54x183x65 cm",
-         "peso": "126kg",
-         "potencia": "1800W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/lw6aa18uifoxorz8th75m/frente_kikkomax.png?rlkey=7po1r80213mmdghy9qt53qhav&st=6qu9fq2f&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/urw2blu54i6wtanpgify6/abierta.png?rlkey=3r6m3rpd8nd8otdm927h9k2jh&st=0dwwww94&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
-         },
-         "cantidad_bebidas": "15",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqc9": {
-         "marca": "Necta",
-         "modelo": "Concerto",
-         "dimension": "60x170x74 cm",
-         "peso": "125kg",
-         "potencia": "1850W",
-         "img": {
-            "img1": "https://www.dropbox.com/scl/fi/54ilfu7y1qvmervwjufl7/frente_concerto.png?rlkey=c14ca8ev5jg3safu0fvxio5at&st=4jlpyltz&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/54ilfu7y1qvmervwjufl7/frente_concerto.png?rlkey=c14ca8ev5jg3safu0fvxio5at&st=4jlpyltz&raw=1"
-         },
-         "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Chocolate": "https://www.dropbox.com/scl/fi/6o46d2nos1olh9kf9k79r/cafe_con_choco.png?rlkey=cmq8yzphrilzcqmgqxr58k016&st=rmnk8ivn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
-         },
-         "cantidad_bebidas": "18",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      }
-   },
+      
+  "maqc2": {
+    "marca": "Necta",
+    "modelo": "Opera",
+    "dimension": "60x183x76 cm",
+    "peso": "135kg",
+    "potencia": "2850W",
+    "img": {
+      "img1": "/img/maq_cafe/opera/frente_opera.png",
+      "img2": "/img/maq_cafe/opera/abierta.png"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate Fuerte": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Vainilla Con Leche": "/img/maq_cafe/Bebidas/vainilla con leche.png",
+      "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+    },
+    "cantidad_bebidas": "16",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  },
+
+  "maqc3": {
+    "marca": "Saeco",
+    "modelo": "Cristallo Boton 400/600",
+    "dimension": "58x183x56 cm",
+    "peso": "105kg",
+    "potencia": "1250W",
+    "img": {
+      "img1": "/img/maq_cafe/boton/frente_boton.png",
+      "img2": "/img/maq_cafe/boton/abierta.png"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Cafe con Chocolate": "/img/maq_cafe/Bebidas/cafe_con_choco.png",
+      "Leche con Chocolate": "/img/maq_cafe/Bebidas/leche_con_chocolate.png",
+      "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Chocolate Fuerte": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+    },
+    "cantidad_bebidas": "15",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  },
+
+  "maqc4": {
+    "marca": "Saeco",
+    "modelo": "10P",
+    "dimension": "62x183x64 cm",
+    "peso": "114kg",
+    "potencia": "1250W",
+    "img": {
+      "img1": "/img/maq_cafe/10p/frente_10p.png",
+      "img2": "/img/maq_cafe/10p/abierta.jpg"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Cafe con Chocolate": "/img/maq_cafe/Bebidas/cafe_con_choco.png",
+      "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png"
+    },
+    "cantidad_bebidas": "10",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  },
+
+  "maqc5": {
+    "marca": "Saeco",
+    "modelo": "Atlante",
+    "dimension": "75x183x87 cm",
+    "peso": "192kg",
+    "potencia": "2300W",
+    "img": {
+      "img1": "/img/maq_cafe/atlante/frente_atlante.png",
+      "img2": "/img/maq_cafe/atlante/abierta.png"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Cafe con Chocolate": "/img/maq_cafe/Bebidas/cafe_con_choco.png",
+      "Leche con Cafe": "/img/maq_cafe/Bebidas/leche_con_cafe.png",
+      "Leche con Chocolate": "/img/maq_cafe/Bebidas/leche_con_chocolate.png",
+      "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Vainilla con Chocolate": "/img/maq_cafe/Bebidas/vainilla con chocolate.png",
+      "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+    },
+    "cantidad_bebidas": "20",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  },
+
+  "maqc6": {
+    "marca": "Saeco",
+    "modelo": "Rubino",
+    "dimension": "41x76x53 cm",
+    "peso": "40kg",
+    "potencia": "1250W",
+    "img": {
+      "img1": "/img/maq_cafe/rubino/frente_rubino.png",
+      "img2": "/img/maq_cafe/rubino/abierto.png"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+    },
+    "cantidad_bebidas": "8",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  },
+
+  "maqc7": {
+    "marca": "Necta",
+    "modelo": "Kikko",
+    "dimension": "54x170x69 cm",
+    "peso": "115kg",
+    "potencia": "1850W",
+    "img": {
+      "img1": "/img/maq_cafe/kikko/frente_kikko.png",
+      "img2": "/img/maq_cafe/kikko/abierta.png"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+      "Cafe con Chocolate": "/img/maq_cafe/Bebidas/cafe_con_choco.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Chocolate Fuerte": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+    },
+    "cantidad_bebidas": "15",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  },
+
+  "maqc8": {
+    "marca": "Necta",
+    "modelo": "Kikko Max",
+    "dimension": "54x183x65 cm",
+    "peso": "126kg",
+    "potencia": "1800W",
+    "img": {
+      "img1": "/img/maq_cafe/kikkomax/frente_kikkomax.png",
+      "img2": "/img/maq_cafe/kikkomax/abierta.png"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+    },
+    "cantidad_bebidas": "15",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  },
+
+  "maqc9": {
+    "marca": "Necta",
+    "modelo": "Concerto",
+    "dimension": "60x170x74 cm",
+    "peso": "125kg",
+    "potencia": "1850W",
+    "img": {
+      "img1": "/img/maq_cafe/concerto/frente_concerto.png",
+      "img2": "/img/maq_cafe/concerto/abierta.jpg"
+    },
+    "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Cafe con Chocolate": "/img/maq_cafe/Bebidas/cafe_con_choco.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+      "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+    },
+    "cantidad_bebidas": "18",
+    "servicio": {
+      "srv1": "reposicion de maquina",
+      "srv2": "servicio tecnico"
+    }
+  }
+  
+},   
+   
    "maquinas_snacks": {
       "maqs1": {
          "marca": "TCN",
@@ -658,7 +668,7 @@
          "dimension": "119x182x86 cm",
          "peso": "325kg",
          "img": {
-            "img1": "/img/maq_snacks/melodia/frente_aliseo.png"
+            "img1": "/img/maq_snacks/coca/frente_coca.png"
          },
          "productos": {
            "bebidas":{
@@ -881,7 +891,7 @@
          "dimension": "72x170x82 cm",
          "peso": "200kg",
          "img": {
-            "img1": "/img/maq_snacks/melodia/frente_aliseo.png"
+            "img1": "/img/maq_snacks/melodia/frente_melodia.png"
          },
          "productos": {
             "bebidas":{

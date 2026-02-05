@@ -35,7 +35,7 @@
     color: black;
 }
 
-.cont_maquina_cafe {
+.cont_maquina_cafe ,.cont_maquina_cafe_min_vending{
     display: grid;
     max-width: 100%;
     min-height: 100vh;
