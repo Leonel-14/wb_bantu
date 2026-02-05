@@ -14,7 +14,7 @@
 }
 .cont_slider_seleccion{
     height: min-content;
-    width: 14em;
+    width: 20em;
     position: relative;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@
 }
 
 .swiper-container{
-    width: 8em;
+    width: 10em;
     overflow: hidden;
 }
 
