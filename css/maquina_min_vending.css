@@ -1,0 +1,237 @@
+@font-face {
+    font-family: bubble;
+    src: url(../fonts/Bubble\ Sans\ Regular\ 1.001.otf);
+}
+
+.seccion_maquina {
+    max-width: 100%;
+    background-color: #42220A;
+    height: min-content;
+    overflow: hidden;
+    justify-items: center;
+}
+
+
+.titulo_maquina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_img_titulo {
+    width: 500px;
+    height: 200px;
+}
+
+.titulo_maquina img {
+    width: 100%;
+}
+
+.nombre_maquina {
+    width: 100%;
+    text-align: center;
+    height: min-content;
+    font-size: 3em;
+    color: black;
+}
+
+.cont_maquina_cafe ,.cont_maquina_cafe_min_vending{
+    display: grid;
+    max-width: 100%;
+    min-height: 100vh;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.cont_img_especificaciones {
+    width: 100%;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2em;
+    justify-items: center;
+
+}
+
+.cont_img_nombre {
+    width: 40em;
+    height: 40em;
+    overflow: hidden;
+    justify-items: center;
+}
+.cont_img_nombre .cont_img{
+    height: auto;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+.cont_img img{
+        width: 100%;
+    }
+.cont_bebidas_especificaciones {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+
+}
+
+.cont_bebidas,
+.cont_bebidas_2 {
+    background-color: #eeb61a;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.cont_bebidas {
+    border-radius: 30em 0 0 30em;
+    justify-content: right;
+}
+
+.cont_bebidas_2 {
+    border-radius: 0 30em 30em 0;
+    justify-content: center;
+}
+
+.cont_bebida,
+.cont_bebida_2 {
+    width: 56em;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+  
+}
+
+
+.cont_bebida {
+    margin-left: 3em;
+    align-items: center;
+}
+
+.cont_bebida_2 {
+
+    margin-right: 3em;
+}
+
+.nombre_cafe {
+    text-align: center;
+}
+
+.cont_especificaciones {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.cont_especificaciones p {
+    font-size: 1.7em;
+    color: black;
+}
+
+.cont_img_bebida {
+    width: 90px;
+    height: 130px;
+    
+
+}
+
+.cont_img_bebida img {
+    width: 100%;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+    position: absolute;
+    top:40%;
+}
+.swiper-button-next{
+    right: 10%;
+}
+.swiper-button-prev{
+    left: 10%;
+}
+.swiper-button-prev{
+    transform: rotate(180deg);
+}
+.swiper-navigation-icon{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .cont_img_bebida{
+        width: 65px;
+        height:auto;
+    }
+    .cont_img_bebida p{
+        font-size: 0.7em;
+    }
+    .cont_bebida, .cont_bebida_2{
+        width: max-content;
+        height: auto;
+    }
+    .nombre_maquina{
+        font-size: 2em;
+    }
+    .cont_img_nombre{
+        width: 27em;
+    }
+    .cont_especificaciones{
+        gap: 0.5em;
+    }
+    .cont_especificaciones p{
+        font-size: 1.3em;
+        gap: 1em;
+    }
+    .cont_bebidas_especificaciones{
+        gap: 1em;
+        grid-template-rows: auto 1fr;
+    }
+    .cont_bebidas{
+        justify-content: center;
+    }
+}
+@media (min-width:1025px) and (max-width:1440px) {
+    .cont_img_nombre{
+        width: 30em;
+    }
+    
+    .cont_img_bebida{
+        width: 5em;
+        height:8em;
+    }
+    .cont_bebida, .cont_bebida_2{
+        width: 100%;
+    }
+    .cont_img_especificaciones{
+        grid-template-columns:  auto auto;
+    }
+    .cont_beb{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .nombre_maquina{
+        font-size: 2em;
+    }
+    .cont_especificaciones p{
+        font-size: 1.4em;
+        gap: 1em;
+        
+    }
+}

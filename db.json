@@ -1079,15 +1079,20 @@
    "maquinas_min_vending": {
       "maqmv1": {
          "marca": "Saeco",
-         "modelo": "Phedra",
-         "dimension": "0x0x0 cm",
-         "peso": "0kg",
+         "modelo": "Lirika PLUS",
+         "dimension": "22x38x43 cm",
+         "peso": "7kg",
          "img": {
-            "img1": "img",
-            "img2": "img2",
-            "img3": "img3"
+            "img1": "/img/maq_cafe/lirika/lirikaplus.png"
          },
-         "cantidad_bebidas": "3",
+         "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Agua": "/img/maq_cafe/Bebidas/agua.png",
+      "Espumador": "/img/maq_cafe/Bebidas/espuma.png"
+      },
+         "cantidad_bebidas": "6",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -1096,14 +1101,20 @@
       "maqmv2": {
          "marca": "Saeco",
          "modelo": "Lirika OTC",
-         "dimension": "0x0x0 cm",
-         "peso": "0kg",
+         "dimension": "22x38x43 cm",
+         "peso": "7kg",
          "img": {
-            "img1": "img",
-            "img2": "img2",
-            "img3": "img3"
+            "img1": "/img/maq_cafe/lirika/lirikaotc.png"
          },
-         "cantidad_bebidas": "3",
+         "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Agua": "/img/maq_cafe/Bebidas/agua.png"
+      },
+         "cantidad_bebidas": "6",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -1111,15 +1122,23 @@
       },
       "maqmv3": {
          "marca": "Saeco",
-         "modelo": "Lirika PLUS",
-         "dimension": "0x0x0 cm",
-         "peso": "0kg",
+         "modelo": "Phedra",
+         "dimension": "22x38x43 cm",
+         "peso": "7kg",
          "img": {
-            "img1": "img",
-            "img2": "img2",
-            "img3": "img3"
+            "img1": "/img/maq_cafe/phedra/phedra.png"
          },
-         "cantidad_bebidas": "3",
+         "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Cappuchino Vainilla": "/img/maq_cafe/Bebidas/vainilla.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate Fuerte": "/img/maq_cafe/Bebidas/chocolate.png"
+      },
+         "cantidad_bebidas": "6",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -1127,51 +1146,60 @@
       },
       "maqmv4": {
          "marca": "Saeco",
-         "modelo": "Vienna Plus",
-         "dimension": "0x0x0 cm",
-         "peso": "0kg",
+         "modelo": "Ipperautomatica",
+         "dimension": "22x38x43 cm",
+         "peso": "7kg",
          "img": {
-            "img1": "img",
-            "img2": "img2",
-            "img3": "img3"
+            "img1": "/img/maq_cafe/ipper/ipperauto.png"
          },
-         "cantidad_bebidas": "3",
+         "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+      "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png"
+      },
+         "cantidad_bebidas": "6",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
          }
-      }
-   },
-   "maquinas_mixta": {
-      "maqmx1": {
+      },
+      "maqmv5": {
          "marca": "Saeco",
-         "modelo": "Diamante",
-         "dimension": "72x191x84 cm",
-         "peso": "243kg",
-         "potencia": "100W",
+         "modelo": "Kanji",
+         "dimension": "22x38x43 cm",
+         "peso": "7kg",
          "img": {
-            "img1": "https://www.dropbox.com/scl/fi/o2oery2kwevf08rcisd1h/frente_diamante.png?rlkey=c27rewoso4r3kmrst2n3b4ybs&st=fvmup01t&raw=1",
-            "img2": "https://www.dropbox.com/scl/fi/o2oery2kwevf08rcisd1h/frente_diamante.png?rlkey=c27rewoso4r3kmrst2n3b4ybs&st=fvmup01t&raw=1",
-            "img3": "https://www.dropbox.com/scl/fi/o2oery2kwevf08rcisd1h/frente_diamante.png?rlkey=c27rewoso4r3kmrst2n3b4ybs&st=fvmup01t&raw=1"
+            "img1": "/img/maq_cafe/kanji/kanji.png"
          },
          "bebida": {
-            "Cafe Corto": "https://www.dropbox.com/scl/fi/7d4nu6neps5fqvbz5em7z/cafe_corto.png?rlkey=zn5caxy75xlcalouuyqowbjcp&st=ohz0rrve&raw=1",
-            "Cafe Largo": "https://www.dropbox.com/scl/fi/g7jjdt5fx47q4erblnksv/largo.png?rlkey=edfezcjj0cm5ti7cqvhyqcf5q&st=iopq849k&raw=1",
-            "Cafe Cortado": "https://www.dropbox.com/scl/fi/u3lr0z15x7dznq0499dn9/Cortado.png?rlkey=hdmgb9d82hbj8gnqsx7qewnvr&st=cw5k9fxc&raw=1",
-            "Cappuchino": "https://www.dropbox.com/scl/fi/d8ljldozo66k5n3l9nm0n/cappuchino.png?rlkey=9j9hwoyy45481teot0evlkrvm&st=jes48uym&raw=1",
-            "Lagrima": "https://www.dropbox.com/scl/fi/2wwsua31vh7czlt1fbx3j/lagrima.png?rlkey=3kxf99a33uuvructvoiuvwr56&st=f9e1fs1t&raw=1",
-            "Cafe con Leche": "https://www.dropbox.com/scl/fi/ssppce9gdrsj6it7kvyrj/cafe_con_leche.png?rlkey=dxafnstb2tc85gtef8se47b07&st=n6n0drdb&raw=1",
-            "Cafe con Chocolate": "https://www.dropbox.com/scl/fi/6o46d2nos1olh9kf9k79r/cafe_con_choco.png?rlkey=cmq8yzphrilzcqmgqxr58k016&st=rmnk8ivn&raw=1",
-            "Leche con Cafe": "https://www.dropbox.com/scl/fi/8zkuaos1knyxyt0xclp9b/leche_con_cafe.png?rlkey=nm8m57s9in3g2uok0n70ljgwx&st=iaxeu435&raw=1",
-            "Leche con Chocolate": "https://www.dropbox.com/scl/fi/f6a4x0qdim0evnbyggl2f/leche_con_chocolate.png?rlkey=5x4v2ij4ukqlmp0z2xrnpz5rc&st=pux7ql8c&raw=1",
-            "Chocolate con Leche": "https://www.dropbox.com/scl/fi/at9d28kt5eiufmvss9ln7/choco_con_leche.png?rlkey=4c7j604xl519t3hfpl32q2ojl&st=2o0cx25s&raw=1",
-            "Leche": "https://www.dropbox.com/scl/fi/b7wfk952wq9qw9ybqfrpk/leche.png?rlkey=it5hp95plrs9kshb1pi10b9kv&st=kbxxe3cn&raw=1",
-            "Chocolate": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Chocolate Fuerte": "https://www.dropbox.com/scl/fi/8392x444k6vb2dzhg69tc/chocolate.png?rlkey=dc708r2prwvg78k32nd5mgpag&st=yft2yw05&raw=1",
-            "Te al limon": "https://www.dropbox.com/scl/fi/40h1neew0nnf6godnnjqe/te-al-limon.png?rlkey=q89wooqzjtak9bpelv4qhhu00&st=1jf9zdm7&raw=1"
+      "Cafe Capsula": "/img/maq_cafe/Bebidas/capsula.png"
+      },
+         "cantidad_bebidas": "6",
+         "servicio": {
+            "srv1": "reposicion de maquina",
+            "srv2": "servicio tecnico"
+         }
+      },
+      "maqmv6": {
+         "marca": "Saeco",
+         "modelo": "Vienna Plus",
+         "dimension": "22x38x43 cm",
+         "peso": "7kg",
+         "img": {
+            "img1": "/img/maq_cafe/vienna/viennaplus.png"
          },
-         "cantidad_bebidas": "8",
-         "cantidad_snacks": "10",
+         "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Espumador": "/img/maq_cafe/Bebidas/espuma.png"
+      
+      },
+         "cantidad_bebidas": "6",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"

@@ -13,15 +13,18 @@ fetch(api_url)
             const loader = document.getElementById('loader');
 
             setTimeout(() => {
-               
+
                 if (document.getElementById("cont_maquina_snack")) {
                     Estructura_Snack(data);
                 }
                 if (document.getElementById("cont_maquina_cafe")) {
                     Estructura_Slider(data);
                 }
-                
-                 loader.style.display = 'none'; // Ocultar loader
+                if (document.getElementById("cont_maquina_cafe_min_vending")) {
+                    Estructura_Min_Vending(data)
+                }
+
+                loader.style.display = 'none'; // Ocultar loader
             }, 1000);
             //Mostrar(data)
         })
@@ -37,7 +40,7 @@ function Estructura_Slider(data) {
     maquina_cafe = Object.values(data.maquinas_cafe);
     maquina_cafe.forEach(element => {
 
-     
+
         imagen1 = Object.values(element.img)[0]
         imagen2 = Object.values(element.img)[1]
 
@@ -194,6 +197,136 @@ function Estructura_Slider(data) {
 
 }
 
+function Estructura_Min_Vending(data) {
+    let i = 0;
+    maquina_cafe = Object.values(data.maquinas_min_vending);
+    maquina_cafe.forEach(element => {
+
+        console.log("Estoy en mini vending")
+        imagen1 = Object.values(element.img)[0]
+        imagen2 = Object.values(element.img)[1]
+
+
+        if (estado_mobile.matches) {
+            console.log("mini_vending_mobile")
+            document.getElementById("cont_maquina_cafe_min_vending").innerHTML +=
+                `
+        <div class="cont_img_especificaciones">
+       <div class="cont_img_nombre"> 
+                <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
+                    <div class="cont_img"">
+                        <img src=${imagen1} alt="img1">
+                    </div>
+                    </div>
+        <div class="cont_bebidas_especificaciones">
+                <div class="cont_bebidas" id="cont_bebidas">
+                    <div class="cont_beb" id="cont_beb">
+                   
+                        <div class="cont_bebida" id="cont_bebida">
+                        ${Generar_Bebida(element)}
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_especificaciones">
+                    <p>Peso: ${element.peso}</p>
+                    <p>Dimensiones:${element.dimension}</p>
+                    <p>Marca: ${element.marca}</p>
+                    <p>Tension: 230V</p>
+                    <p>Cantidad de bebidas: ${element.cantidad_bebidas}</p>
+                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
+                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
+
+                </div>
+        </div>
+        </div>
+        `
+        }
+        else {
+            if (i % 2 == 0) {
+                document.getElementById("cont_maquina_cafe_min_vending").innerHTML +=
+                    `
+        <div class="cont_img_especificaciones">
+        <div class="cont_img_nombre"> 
+                <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
+                    <div class="cont_img"">
+                        <img src=${imagen1} alt="img1">
+                    </div>
+                    </div>
+        <div class="cont_bebidas_especificaciones">
+                <div class="cont_bebidas" id="cont_bebidas">
+                    <div class="cont_beb" id="cont_beb">
+                   
+                        <div class="cont_bebida" id="cont_bebida">
+                        ${Generar_Bebida(element)}
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_especificaciones">
+                    <p>Peso: ${element.peso}</p>
+                    <p>Dimensiones:${element.dimension}</p>
+                    <p>Marca: ${element.marca}</p>
+                    <p>Tension: 230V</p>
+                    <p>Cantidad de bebidas: ${element.cantidad_bebidas}</p>
+                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
+                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
+
+                </div>
+        </div>
+        </div>
+        `
+
+            }
+            else {
+                document.getElementById("cont_maquina_cafe_min_vending").innerHTML +=
+                    `
+        <div class="cont_img_especificaciones">
+            <div class="cont_bebidas_especificaciones">
+                <div class="cont_bebidas_2">
+                    <div class="cont_beb" data-aos="fade-up">
+                   
+                        <div class="cont_bebida_2" id="cont_bebida_2">
+                                ${Generar_Bebida(element)}
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_especificaciones" data-aos="fade-up">
+                    <p>Peso: ${element.peso}</p>
+                    <p>Dimensiones:${element.dimension}</p>
+                    <p>Marca: ${element.marca}</p>
+                    <p>Tension: 230V</p>
+                    <p>Cantidad de bebidas: ${element.cantidad_bebidas}</p>
+                    <p><i class="fa-solid fa-dolly" style="color:white"></i> Resposicion de Maquina</p>
+                    <p><i class="fa-solid fa-gears" style="color:white"></i> Servicio Tecnico</p>
+
+                </div>
+            </div>
+            <div class="cont_img_nombre"> 
+                <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
+                    <div class="cont_img"">
+                        <img src=${imagen1} alt="img1">
+                    </div>
+                    </div>
+            </div>
+        </div>
+        
+        `
+            }
+        }
+
+        var swiper = new Swiper(`.mySwiper`, {
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+
+        i++;
+    });
+
+}
+
 function Mostrar(data) {
 
     console.log("Estrucuta snacks")
@@ -270,7 +403,7 @@ function Estructura_Snack(data) {
                     ${Generar_Snack(element)}
             </div>
     `
-        
+
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
@@ -337,5 +470,4 @@ function Generar_Bebida(data) {
     })
     return bebidas;
 }
-
 
