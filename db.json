@@ -1079,6 +1079,30 @@
    "maquinas_min_vending": {
       "maqmv1": {
          "marca": "Saeco",
+         "modelo": "Royal OTC",
+         "dimension": "35x55x55 cm",
+         "peso": "31.5kg",
+         "img": {
+            "img1": "/img/maq_cafe/royal/royalotc.png"
+         },
+         "bebida": {
+      "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+      "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+      "Americano": "/img/maq_cafe/Bebidas/largo.png",
+      "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+      "Leche": "/img/maq_cafe/Bebidas/leche.png",
+      "Latte Machiato": "/img/maq_cafe/Bebidas/lagrima.png",
+      "Agua": "/img/maq_cafe/Bebidas/agua.png"
+      
+      },
+         "cantidad_bebidas": "7",
+         "servicio": {
+            "srv1": "reposicion de maquina",
+            "srv2": "servicio tecnico"
+         }
+      },
+      "maqmv2": {
+         "marca": "Saeco",
          "modelo": "Lirika PLUS",
          "dimension": "22x38x43 cm",
          "peso": "7kg",
@@ -1092,13 +1116,13 @@
       "Agua": "/img/maq_cafe/Bebidas/agua.png",
       "Espumador": "/img/maq_cafe/Bebidas/espuma.png"
       },
-         "cantidad_bebidas": "6",
+         "cantidad_bebidas": "4",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
          }
       },
-      "maqmv2": {
+      "maqmv3": {
          "marca": "Saeco",
          "modelo": "Lirika OTC",
          "dimension": "22x38x43 cm",
@@ -1120,10 +1144,10 @@
             "srv2": "servicio tecnico"
          }
       },
-      "maqmv3": {
+      "maqmv4": {
          "marca": "Saeco",
          "modelo": "Phedra",
-         "dimension": "22x38x43 cm",
+         "dimension": "40x70x51 cm",
          "peso": "7kg",
          "img": {
             "img1": "/img/maq_cafe/phedra/phedra.png"
@@ -1144,11 +1168,11 @@
             "srv2": "servicio tecnico"
          }
       },
-      "maqmv4": {
+      "maqmv5": {
          "marca": "Saeco",
          "modelo": "Ipperautomatica",
-         "dimension": "22x38x43 cm",
-         "peso": "7kg",
+         "dimension": "35x55x55 cm",
+         "peso": "31.5kg",
          "img": {
             "img1": "/img/maq_cafe/ipper/ipperauto.png"
          },
@@ -1162,24 +1186,7 @@
       "Leche": "/img/maq_cafe/Bebidas/leche.png",
       "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png"
       },
-         "cantidad_bebidas": "6",
-         "servicio": {
-            "srv1": "reposicion de maquina",
-            "srv2": "servicio tecnico"
-         }
-      },
-      "maqmv5": {
-         "marca": "Saeco",
-         "modelo": "Kanji",
-         "dimension": "22x38x43 cm",
-         "peso": "7kg",
-         "img": {
-            "img1": "/img/maq_cafe/kanji/kanji.png"
-         },
-         "bebida": {
-      "Cafe Capsula": "/img/maq_cafe/Bebidas/capsula.png"
-      },
-         "cantidad_bebidas": "6",
+         "cantidad_bebidas": "8",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -1187,9 +1194,26 @@
       },
       "maqmv6": {
          "marca": "Saeco",
+         "modelo": "Kanji",
+         "dimension": "26x25x11 cm",
+         "peso": "1.8kg",
+         "img": {
+            "img1": "/img/maq_cafe/kanji/kanji.png"
+         },
+         "bebida": {
+      "Cafe Capsula": "/img/maq_cafe/Bebidas/capsula.png"
+      },
+         "cantidad_bebidas": "1",
+         "servicio": {
+            "srv1": "reposicion de maquina",
+            "srv2": "servicio tecnico"
+         }
+      },
+      "maqmv7": {
+         "marca": "Saeco",
          "modelo": "Vienna Plus",
-         "dimension": "22x38x43 cm",
-         "peso": "7kg",
+         "dimension": "34x38x33 cm",
+         "peso": "8.5kg",
          "img": {
             "img1": "/img/maq_cafe/vienna/viennaplus.png"
          },
@@ -1199,7 +1223,7 @@
       "Espumador": "/img/maq_cafe/Bebidas/espuma.png"
       
       },
-         "cantidad_bebidas": "6",
+         "cantidad_bebidas": "2",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"

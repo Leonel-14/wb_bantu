@@ -204,8 +204,6 @@ function Estructura_Min_Vending(data) {
 
         console.log("Estoy en mini vending")
         imagen1 = Object.values(element.img)[0]
-        imagen2 = Object.values(element.img)[1]
-
 
         if (estado_mobile.matches) {
             console.log("mini_vending_mobile")

@@ -95,6 +95,16 @@ if (consulta_ventana()) {
                         <img src="./img/slider_mobile/sl2B_hd.png">
                     </div>
                 </div>
+                <diV class="swiper-slide">
+                    <div>
+                        <img src="./img/slider_mobile/sl3A_mobile.png">
+                    </div>
+                </div>
+                <diV class="swiper-slide">
+                    <div>
+                        <img src="./img/slider_mobile/sl3B_mobile.png">
+                    </div>
+                </div>
             </div>
         `
     
