@@ -54,10 +54,10 @@ function Estructura_Slider(data) {
                 <div class="swiper-container mySwiper" id="mySwiper">
                     <div class="swiper-wrapper" id="swiper-wrapper">
                         <div class="swiper-slide"">
-                            <img src=${imagen1} alt="img1">
+                            <img src=${imagen1} alt="maquina cafe">
                         </div>
                         <div class="swiper-slide">
-                            <img src=${imagen2}>
+                            <img src=${imagen2} alt="maquina cafe">
                         </div>
                     </div>
                     <div class="swiper-button-prev"></div>
@@ -213,7 +213,7 @@ function Estructura_Min_Vending(data) {
        <div class="cont_img_nombre"> 
                 <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
                     <div class="cont_img"">
-                        <img src=${imagen1} alt="img1">
+                        <img src=${imagen1} alt="maquina cafe">
                     </div>
                     </div>
         <div class="cont_bebidas_especificaciones">
@@ -247,7 +247,7 @@ function Estructura_Min_Vending(data) {
         <div class="cont_img_nombre"> 
                 <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
                     <div class="cont_img"">
-                        <img src=${imagen1} alt="img1">
+                        <img src=${imagen1} alt="maquina cafe">
                     </div>
                     </div>
         <div class="cont_bebidas_especificaciones">
@@ -301,7 +301,7 @@ function Estructura_Min_Vending(data) {
             <div class="cont_img_nombre"> 
                 <h2 class="nombre_maquina" id="${element.modelo}">${element.modelo}</h2>
                     <div class="cont_img"">
-                        <img src=${imagen1} alt="img1">
+                        <img src=${imagen1} alt="maquina cafe">
                     </div>
                     </div>
             </div>
@@ -389,7 +389,7 @@ function Estructura_Snack(data) {
     <div class="maquina_especificaciones_snack">
                 <h2 class="nombre_maquina_snack">${element.modelo}</h2>
                 <div class="cont_img_snack">
-                    <img src=${imagen} alt="imagen">
+                    <img src=${imagen} alt="maquina snack">
                 </div>
                 <div class="especificaciones">
                     <p>Dimension: ${element.dimension}</p>
@@ -433,7 +433,7 @@ function Generar_Snack(dato) {
 
             img += `
 
-                    <div class="swiper-slide"><img src="${x}" ></div>`
+                    <div class="swiper-slide"><img src="${x}" alt="snack" ></div>`
         })
 
         snacks +=
@@ -461,7 +461,7 @@ function Generar_Bebida(data) {
         bebidas +=
             `
             <div class="cont_img_bebida id="cont_img_bebida">
-                    <img src="${element[1]}">
+                    <img src="${element[1]}" alt="${element[0]}">
                  <p class="nombre_cafe">${element[0]}</p>
          </div>
         `
