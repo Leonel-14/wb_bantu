@@ -465,7 +465,7 @@
                "integra2": "/img/maq_snacks/snacks/Saludable/integra2.png"
             }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "44",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -560,7 +560,7 @@
              "integra2":"/img/maq_snacks/snacks/Saludable/integra2.png"
            }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "37",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -655,7 +655,7 @@
              "integra2":"/img/maq_snacks/snacks/Saludable/integra2.png"
            }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "33",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -688,7 +688,7 @@
              "Sweep Amarillo":"/img/maq_snacks/snacks/Bebidas/sweepamarillo.png"
            }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "40",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -783,7 +783,7 @@
              "integra2":"/img/maq_snacks/snacks/Saludable/integra2.png"
            }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "33",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -878,7 +878,7 @@
              "integra2":"/img/maq_snacks/snacks/Saludable/integra2.png"
            }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "38",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -973,7 +973,7 @@
              "integra2":"/img/maq_snacks/snacks/Saludable/integra2.png"
            }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "33",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
@@ -1068,7 +1068,7 @@
              "integra2":"/img/maq_snacks/snacks/Saludable/integra2.png"
            }
          },
-         "cantidad_selecciones": "10",
+         "cantidad_selecciones": "34",
          "servicio": {
             "srv1": "reposicion de maquina",
             "srv2": "servicio tecnico"
