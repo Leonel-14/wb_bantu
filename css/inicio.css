@@ -24,8 +24,6 @@ section{
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: #42220A;
-    /*background-color: #57070a;*/
-  /*  background-color: #000000;*/
     justify-items: center;
     align-items: center;
 }
@@ -47,41 +45,15 @@ section{
     width: 100% ;
     margin-right: 0; 
 }
-.link_slider_maquina_cafe1,
-.link_slider_maquina_cafe2,
-.link_slider_maquina_cafe3,
-.link_slider_maquina_cafe4,
-.link_slider_maquina_cafe5,
-.link_slider_maquina_cafe6,
-.link_slider_maquina_cafe7
+.link_slider_maquina_snack1,
+.link_slider_maquina_cafe1, 
+.link_slider_maquina_min_vending1
 {
-    width: 13em;
-    height: 25em;
+    width:100%;
+    height: 90%;
     position: absolute;
     z-index: 1;
-    
-    top: 1.5em;
-}
-.link_slider_maquina_cafe1{
-    left: 1.5em;
-}
-.link_slider_maquina_cafe2{
-    left: 20em;
-}
-.link_slider_maquina_cafe3{
-    left: 34em;
-}
-.link_slider_maquina_cafe4{
-    left: 50em;
-}
-.link_slider_maquina_cafe5{
-    left: 65em;
-}
-.link_slider_maquina_cafe6{
-    left: 85em;
-}
-.link_slider_maquina_cafe7{
-    left: 102em;
+    align-self: center;
 }
 
 
@@ -156,32 +128,7 @@ section{
     .seccion_inicio .cont_marca{
         display: none;
 }
-    .link_slider_maquina_cafe1, .link_slider_maquina_cafe2, .link_slider_maquina_cafe3, .link_slider_maquina_cafe4, .link_slider_maquina_cafe5, .link_slider_maquina_cafe5, .link_slider_maquina_cafe6, .link_slider_maquina_cafe7{
-        width: 20%;
-        height: 90%;
-    }
-    .link_slider_maquina_cafe1{
-        left: 2%;
-    }
-    .link_slider_maquina_cafe2{
-        left: 27%;
-    }
-    .link_slider_maquina_cafe3{
-        left: 54%;
-    }
-    .link_slider_maquina_cafe4{
-        left: 80%;
-    }
-
-    .link_slider_maquina_cafe5{
-        left: 12%;
-    }
-    .link_slider_maquina_cafe6{
-        left: 42%;
-    }
-    .link_slider_maquina_cafe7{
-        left: 72%;
-    }
+  
 }
 
 @media (min-width:769px) and (max-width:1024px) {

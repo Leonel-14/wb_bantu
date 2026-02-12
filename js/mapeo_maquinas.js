@@ -2,6 +2,13 @@ const api_url = "../db.json";
 
 const div_bebida = document.getElementById('cont_img_bebida');
 const estado_mobile = window.matchMedia("(max-width:768px)");
+
+
+const contenedor_cafe = document.getElementById("cont_maquina_cafe");
+const contenedor_mini_vending = document.getElementById("cont_maquina_cafe_min_vending");
+const contenedor_snack = document.getElementById("cont_maquina_snack");
+
+
 fetch(api_url)
     .then(response => {
         // Convierte la respuesta a formato JSON
@@ -17,12 +24,13 @@ fetch(api_url)
                 if (document.getElementById("cont_maquina_snack")) {
                     Estructura_Snack(data);
                 }
-                if (document.getElementById("cont_maquina_cafe")) {
-                    Estructura_Slider(data);
+                else if (document.getElementById("cont_maquina_cafe")) {
+                    Estructura_Cafe(data);
                 }
-                if (document.getElementById("cont_maquina_cafe_min_vending")) {
+                else if (document.getElementById("cont_maquina_cafe_min_vending")) {
                     Estructura_Min_Vending(data)
                 }
+                
 
                 loader.style.display = 'none'; // Ocultar loader
             }, 1000);
@@ -35,7 +43,7 @@ fetch(api_url)
 
 
 
-function Estructura_Slider(data) {
+function Estructura_Cafe(data) {
     let i = 0;
     maquina_cafe = Object.values(data.maquinas_cafe);
     maquina_cafe.forEach(element => {
@@ -46,7 +54,7 @@ function Estructura_Slider(data) {
 
 
         if (estado_mobile.matches) {
-            document.getElementById("cont_maquina_cafe").innerHTML +=
+            contenedor_cafe.innerHTML +=
                 `
         <div class="cont_slider_especificaciones">
         <div class="slider" id="slider"> 
@@ -91,7 +99,7 @@ function Estructura_Slider(data) {
         }
         else {
             if (i % 2 == 0) {
-                document.getElementById("cont_maquina_cafe").innerHTML +=
+                contenedor_cafe.innerHTML +=
                     `
         <div class="cont_slider_especificaciones">
         <div class="slider" id="slider"> 
@@ -136,7 +144,7 @@ function Estructura_Slider(data) {
 
             }
             else {
-                document.getElementById("cont_maquina_cafe").innerHTML +=
+                contenedor_cafe.innerHTML +=
                     `
         <div class="cont_slider_especificaciones">
             <div class="cont_bebidas_especificaciones">
@@ -201,13 +209,10 @@ function Estructura_Min_Vending(data) {
     let i = 0;
     maquina_cafe = Object.values(data.maquinas_min_vending);
     maquina_cafe.forEach(element => {
-
-        console.log("Estoy en mini vending")
         imagen1 = Object.values(element.img)[0]
 
         if (estado_mobile.matches) {
-            console.log("mini_vending_mobile")
-            document.getElementById("cont_maquina_cafe_min_vending").innerHTML +=
+            contenedor_mini_vending.innerHTML +=
                 `
         <div class="cont_img_especificaciones">
        <div class="cont_img_nombre"> 
@@ -241,7 +246,7 @@ function Estructura_Min_Vending(data) {
         }
         else {
             if (i % 2 == 0) {
-                document.getElementById("cont_maquina_cafe_min_vending").innerHTML +=
+                contenedor_mini_vending.innerHTML +=
                     `
         <div class="cont_img_especificaciones">
         <div class="cont_img_nombre"> 
@@ -275,7 +280,7 @@ function Estructura_Min_Vending(data) {
 
             }
             else {
-                document.getElementById("cont_maquina_cafe_min_vending").innerHTML +=
+                contenedor_mini_vending.innerHTML +=
                     `
         <div class="cont_img_especificaciones">
             <div class="cont_bebidas_especificaciones">
@@ -324,7 +329,7 @@ function Estructura_Min_Vending(data) {
     });
 
 }
-
+/*
 function Mostrar(data) {
 
     console.log("Estrucuta snacks")
@@ -372,19 +377,17 @@ function Mostrar(data) {
          imagen = Object.values(element.img)[0]
          console.log(imagen)
          
-    })*/
+    })
 
 }
-
+*/
 
 function Estructura_Snack(data) {
     maquina_snack = Object.values(data.maquinas_snacks);
 
     maquina_snack.forEach(element => {
         imagen = Object.values(element.img)
-        const contenedor = document.getElementById("cont_maquina_snack");
-
-        contenedor.innerHTML +=
+        contenedor_snack.innerHTML +=
             `
     <div class="maquina_especificaciones_snack">
                 <h2 class="nombre_maquina_snack">${element.modelo}</h2>
@@ -419,6 +422,7 @@ function Estructura_Snack(data) {
         });
     })
 }
+
 function Generar_Snack(dato) {
     //(console.log(dato.productos)
     let snacks = ""

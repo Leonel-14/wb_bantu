@@ -275,7 +275,6 @@
   }
   
 },   
-   
    "maquinas_snacks": {
       "maqs1": {
          "marca": "TCN",
@@ -1229,5 +1228,120 @@
             "srv2": "servicio tecnico"
          }
       }
+   },
+   "maquinas_cafe_snacks":{
+      "maqcs1": {
+         "marca": "Saeco",
+         "modelo": "Diamante",
+         "dimension": "58x170x67 cm",
+         "peso": "120kg",
+         "potencia": "1450W",
+         "img": {
+            "img1": "/img/maq_cafe/diamante/frente_diamante.png"
+         },
+         "bebida": {
+            "Cafe Corto": "/img/maq_cafe/Bebidas/cafe_corto.png",
+            "Cafe Largo": "/img/maq_cafe/Bebidas/largo.png",
+            "Cafe Cortado": "/img/maq_cafe/Bebidas/Cortado.png",
+            "Cappuchino": "/img/maq_cafe/Bebidas/cappuchino.png",
+            "Lagrima": "/img/maq_cafe/Bebidas/lagrima.png",
+            "Cafe con Leche": "/img/maq_cafe/Bebidas/cafe_con_leche.png",
+            "Cafe con Chocolate": "/img/maq_cafe/Bebidas/cafe_con_choco.png",
+            "Leche con Cafe": "/img/maq_cafe/Bebidas/leche_con_cafe.png",
+            "Leche con Chocolate": "/img/maq_cafe/Bebidas/leche_con_chocolate.png",
+            "Chocolate con Leche": "/img/maq_cafe/Bebidas/choco_con_leche.png",
+            "Leche": "/img/maq_cafe/Bebidas/leche.png",
+            "Chocolate": "/img/maq_cafe/Bebidas/chocolate.png",
+            "Chocolate Fuerte": "/img/maq_cafe/Bebidas/chocolate.png",
+            "Cappuchino Vainilla": "/img/maq_cafe/Bebidas/vainilla.png",
+            "Te al limon": "/img/maq_cafe/Bebidas/te al limon.png"
+         },
+         "cantidad_bebidas": "17",
+         "productos": {
+            "bebidas": {
+               "Coca Botella": "/img/maq_snacks/snacks/Bebidas/cocabotella.png",
+               "Sprite Botella": "/img/maq_snacks/snacks/Bebidas/sprite.png",
+               "Fanta Botella": "/img/maq_snacks/snacks/Bebidas/fant.png",
+               "Coca Lata": "/img/maq_snacks/snacks/Bebidas/cocalata.png",
+               "Sprite Lata": "/img/maq_snacks/snacks/Bebidas/spritelata.png",
+               "Fanta Lata": "/img/maq_snacks/snacks/Bebidas/fantalata.png",
+               "Agua Smart": "/img/maq_snacks/snacks/Bebidas/smart.png",
+               "Agua Benedicto": "/img/maq_snacks/snacks/Bebidas/benedicto.png",
+               "Agua Ko": "/img/maq_snacks/snacks/Bebidas/agua ko.png",
+               "Aquarius": "/img/maq_snacks/snacks/Bebidas/aquarius.png",
+               "Baggio": "/img/maq_snacks/snacks/Bebidas/baggio.png",
+               "Powerade": "/img/maq_snacks/snacks/Bebidas/powerade.png",
+               "Monster": "/img/maq_snacks/snacks/Bebidas/monster.png",
+               "Sweep Azul": "/img/maq_snacks/snacks/Bebidas/sweepazul.png",
+               "Sweep Amarillo": "/img/maq_snacks/snacks/Bebidas/sweepamarillo.png"
+            },
+            "alfajores": {
+               "block": "/img/maq_snacks/snacks/Alfajores/block.png",
+               "bn": "/img/maq_snacks/snacks/Alfajores/bn.png",
+               "bonobon": "/img/maq_snacks/snacks/Alfajores/bonobon.png",
+               "chocotorta": "/img/maq_snacks/snacks/Alfajores/chocotorta.png",
+               "fantoche": "/img/maq_snacks/snacks/Alfajores/fantoche.png",
+               "gula": "/img/maq_snacks/snacks/Alfajores/gula.png",
+               "jorgelin": "/img/maq_snacks/snacks/Alfajores/jorgelin.png",
+               "jorgito": "/img/maq_snacks/snacks/Alfajores/jorgito.png",
+               "aguila": "/img/maq_snacks/snacks/Alfajores/aguila.png",
+               "rasta": "/img/maq_snacks/snacks/Alfajores/rasta.png"
+            },
+            "galletas": {
+               "9deoro": "/img/maq_snacks/snacks/Galletas/9deorolight.png",
+               "9deoronegro": "/img/maq_snacks/snacks/Galletas/9oronegra.png",
+               "celosas": "/img/maq_snacks/snacks/Galletas/celosas_.png",
+               "coronita": "/img/maq_snacks/snacks/Galletas/coronita_.png",
+               "criollita": "/img/maq_snacks/snacks/Galletas/criollitas.png",
+               "donsatur": "/img/maq_snacks/snacks/Galletas/donsatur.png",
+               "macuca": "/img/maq_snacks/snacks/Galletas/macuca.png",
+               "merengada": "/img/maq_snacks/snacks/Galletas/merengada.png",
+               "sonrisa": "/img/maq_snacks/snacks/Galletas/sonrisas.png",
+               "rumba": "/img/maq_snacks/snacks/Galletas/rumba.png",
+               "opera": "/img/maq_snacks/snacks/Galletas/opera.png",
+               "pepa": "/img/maq_snacks/snacks/Galletas/pepa.png"
+            },
+            "chocolates": {
+               "block": "/img/maq_snacks/snacks/Chocolates/block.png",
+               "bonobon": "/img/maq_snacks/snacks/Chocolates/bonobon barra.png",
+               "cofler": "/img/maq_snacks/snacks/Chocolates/cofler.png",
+               "hamlet": "/img/maq_snacks/snacks/Chocolates/hamlet.png",
+               "mecano": "/img/maq_snacks/snacks/Chocolates/mecano.png",
+               "nugaton": "/img/maq_snacks/snacks/Chocolates/nugaton.png",
+               "rocklets": "/img/maq_snacks/snacks/Chocolates/rocklets.png"
+            },
+            "salado": {
+               "kesitas": "/img/maq_snacks/snacks/Salado/kesitas.png",
+               "rex": "/img/maq_snacks/snacks/Salado/rex.png",
+               "saladix": "/img/maq_snacks/snacks/Salado/saladix.png",
+               "talitas": "/img/maq_snacks/snacks/Salado/talitas.png",
+               "takis": "/img/maq_snacks/snacks/Salado/takis.png",
+               "traviata": "/img/maq_snacks/snacks/Salado/traviata.png"
+            },
+            "varios": {
+               "beldent": "/img/maq_snacks/snacks/Varios/beldent.png",
+               "menthoplus": "/img/maq_snacks/snacks/Varios/menthoplus.png",
+               "mogul": "/img/maq_snacks/snacks/Varios/mogul.png",
+               "mantecol": "/img/maq_snacks/snacks/Varios/mantecol.png",
+               "sugus": "/img/maq_snacks/snacks/Varios/sugus.png",
+               "turron": "/img/maq_snacks/snacks/Varios/turron.png"
+            },
+            "saludables": {
+               "cerealflow": "/img/maq_snacks/snacks/Saludable/cerealflow.png",
+               "cerealmix": "/img/maq_snacks/snacks/Saludable/cerealmix.png",
+               "chocoarroz": "/img/maq_snacks/snacks/Saludable/chocoarroz.png",
+               "chocobar": "/img/maq_snacks/snacks/Saludable/chocobar.png",
+               "coronitas": "/img/maq_snacks/snacks/Saludable/coronitaverde.png",
+               "futigram": "/img/maq_snacks/snacks/Saludable/futigrram.png",
+               "hogareña": "/img/maq_snacks/snacks/Saludable/hogareña.png",
+               "integra": "/img/maq_snacks/snacks/Saludable/integra.png",
+               "integra2": "/img/maq_snacks/snacks/Saludable/integra2.png"
+            }
+         },
+         "servicio": {
+            "srv1": "reposicion de maquina",
+            "srv2": "servicio tecnico"
+         }
+   }
    }
 }
