@@ -71,37 +71,37 @@ if (consulta_ventana()) {
                 <diV class="swiper-slide">
                     <div>
                         <a class=link_slider_maquina_cafe1 href="./html/maquinas_cafe.html"></a>
-                        <img src="./img/slider_mobile/sl1A_mobile.png">
+                        <img src="./img/slider_mobile/sl1A_mobile.png" alt="banner 1">
                     </div>
                 </div>
                 <diV class="swiper-slide">
                     <div>
                     <a class=link_slider_maquina_cafe1 href="./html/maquinas_cafe.html"></a>
-                        <img src="./img/slider_mobile/sl1B_mobile.png">
+                        <img src="./img/slider_mobile/sl1B_mobile.png" alt="banner 1">
                     </div>
                 </div>
                 <diV class="swiper-slide">
                     <div>
                     <a class=link_slider_maquina_cafe1 href="./html/maquinas_snack.html"></a>
-                        <img src="./img/slider_mobile/sl2A_hd.png">
+                        <img src="./img/slider_mobile/sl2A_hd.png" alt="banner 2">
                     </div>
                 </div>
                 <diV class="swiper-slide">
                     <div>
                     <a class=link_slider_maquina_cafe1 href="./html/maquinas_snack.html"></a>
-                        <img src="./img/slider_mobile/sl2B_hd.png">
+                        <img src="./img/slider_mobile/sl2B_hd.png" alt="banner 2">
                     </div>
                 </div>
                 <diV class="swiper-slide">
                     <div>
                     <a class=link_slider_maquina_cafe1 href="./html/mini_vending.html"></a>
-                        <img src="./img/slider_mobile/sl3A_mobile.png">
+                        <img src="./img/slider_mobile/sl3A_mobile.png" alt="banner 3">
                     </div>
                 </div>
                 <diV class="swiper-slide">
                     <div>
                     <a class=link_slider_maquina_cafe1 href="./html/mini_vending.html"></a>
-                        <img src="./img/slider_mobile/sl3B_mobile.png">
+                        <img src="./img/slider_mobile/sl3B_mobile.png" alt="banner 3">
                     </div>
                 </div>
             </div>
